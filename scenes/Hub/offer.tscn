@@ -1,0 +1,27 @@
+[gd_scene load_steps=4 format=3 uid="uid://cgemfmqqyhfmk"]
+
+[ext_resource type="Texture2D" uid="uid://b6r6vyhrlncm" path="res://sprites/Door_5.png" id="1_kwrrw"]
+[ext_resource type="Script" path="res://scenes/Hub/offer.gd" id="1_ukslv"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_brdnx"]
+size = Vector2(90, 166)
+
+[node name="offer_pomelo" type="Area2D"]
+script = ExtResource("1_ukslv")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_kwrrw")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_brdnx")
+
+[node name="Label" type="Label" parent="."]
+offset_left = -152.0
+offset_top = -147.0
+offset_right = 182.0
+offset_bottom = -98.0
+theme_override_font_sizes/font_size = 35
+text = "Помело = 25 монет"
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="body_exited" from="." to="." method="_on_body_exited"]

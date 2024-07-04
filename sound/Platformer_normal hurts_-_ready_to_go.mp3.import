@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b5elg7ii3ebeo"
+path="res://.godot/imported/Platformer_normal hurts_-_ready_to_go.mp3-45568f7e61834636f8b7423e015f1647.mp3str"
+
+[deps]
+
+source_file="res://sound/Platformer_normal hurts_-_ready_to_go.mp3"
+dest_files=["res://.godot/imported/Platformer_normal hurts_-_ready_to_go.mp3-45568f7e61834636f8b7423e015f1647.mp3str"]
+
+[params]
+
+loop=true
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,25 @@
+[gd_scene load_steps=2 format=3 uid="uid://bwa503am2ha4v"]
+
+[sub_resource type="GDScript" id="GDScript_s7imc"]
+script/source = "extends Node
+
+@onready var pause_menu = $\"../Pause_menu\"
+var game_paused = false
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta):
+	if Input.is_action_just_pressed(\"ui_cancel\"):
+		game_paused = !game_paused
+		
+		if game_paused:
+			get_tree().paused = true
+			pause_menu.show()
+		
+		else:
+			get_tree().paused = false
+			pause_menu.hide()
+"
+
+[node name="Manager" type="Node"]
+process_mode = 3
+script = SubResource("GDScript_s7imc")

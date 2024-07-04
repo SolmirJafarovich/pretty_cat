@@ -1,0 +1,1242 @@
+[gd_scene load_steps=306 format=3 uid="uid://bpvp1ftr2opph"]
+
+[ext_resource type="AudioStream" uid="uid://tkhwcxnpx702" path="res://sound/Винкс Клуб - 1 сезон - Начальная песня.mp3" id="1_ecafa"]
+[ext_resource type="Texture2D" uid="uid://w61p22stlt75" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_000.png" id="75_74a0o"]
+[ext_resource type="PackedScene" uid="uid://ckjsmrc4j735p" path="res://scenes/platforms/cute_platform.tscn" id="75_acpnh"]
+[ext_resource type="Texture2D" uid="uid://fxx60rcidged" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_001.png" id="76_bi0s5"]
+[ext_resource type="PackedScene" uid="uid://dqp1g5xy77htb" path="res://scenes/door_513/back_to_hub_door.tscn" id="76_fvx0c"]
+[ext_resource type="Texture2D" uid="uid://b08rwlwi4xqty" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_002.png" id="77_j76cm"]
+[ext_resource type="PackedScene" uid="uid://b1j1wtnhhwouy" path="res://scenes/player/player.tscn" id="77_l0vc0"]
+[ext_resource type="Texture2D" uid="uid://d02u0p4usx8i4" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_003.png" id="78_7dupj"]
+[ext_resource type="Texture2D" uid="uid://bnwnddc5uqqqa" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_004.png" id="79_3esm7"]
+[ext_resource type="Texture2D" uid="uid://waiweulrfu64" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_005.png" id="80_qsgfy"]
+[ext_resource type="Texture2D" uid="uid://cwm5aa2u18ma8" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_006.png" id="81_gaqr7"]
+[ext_resource type="Texture2D" uid="uid://bt4rrhoe4w6f7" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_007.png" id="82_854aq"]
+[ext_resource type="Texture2D" uid="uid://fd3ux53hxk3v" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_008.png" id="83_p4y0m"]
+[ext_resource type="Texture2D" uid="uid://g2ts6uevx7ff" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_009.png" id="84_68y2e"]
+[ext_resource type="Texture2D" uid="uid://cd3jsvjdi0hkx" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_010.png" id="85_m6a4i"]
+[ext_resource type="Texture2D" uid="uid://douvatwltq6t4" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_011.png" id="86_ixmnu"]
+[ext_resource type="Texture2D" uid="uid://bsaivv3ps0t76" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_012.png" id="87_ew3hs"]
+[ext_resource type="Texture2D" uid="uid://bro2hvud5yxtb" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_013.png" id="88_jcctr"]
+[ext_resource type="Texture2D" uid="uid://ddc38gfoke3hr" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_014.png" id="89_h7qgm"]
+[ext_resource type="Texture2D" uid="uid://bqwn6n3oc5iss" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_015.png" id="90_6wuw2"]
+[ext_resource type="Texture2D" uid="uid://b3wserkrkjmb5" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_016.png" id="91_bq160"]
+[ext_resource type="Texture2D" uid="uid://bgivlhflwy5dc" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_017.png" id="92_s26dw"]
+[ext_resource type="Texture2D" uid="uid://dklwq5cwgi0k" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_018.png" id="93_6ohw7"]
+[ext_resource type="Texture2D" uid="uid://dbr5sb6ph1oqf" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_019.png" id="94_b5brh"]
+[ext_resource type="Texture2D" uid="uid://bkpa1u0k7x316" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_020.png" id="95_40pp6"]
+[ext_resource type="Texture2D" uid="uid://bwmjm0kqks4j" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_021.png" id="96_kj2fa"]
+[ext_resource type="Texture2D" uid="uid://bowahga3770fl" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_022.png" id="97_rbx2c"]
+[ext_resource type="Texture2D" uid="uid://d2lbqi80eblwx" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_023.png" id="98_g4o6d"]
+[ext_resource type="Texture2D" uid="uid://cs2jx3wwciijm" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_024.png" id="99_5se8t"]
+[ext_resource type="Texture2D" uid="uid://btet153fw507" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_025.png" id="100_v4ltq"]
+[ext_resource type="Texture2D" uid="uid://cpdqxuu5uhios" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_026.png" id="101_0ssxn"]
+[ext_resource type="Texture2D" uid="uid://wrm63oa6alc2" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_027.png" id="102_dj481"]
+[ext_resource type="Texture2D" uid="uid://c5o2uhac4h75o" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_028.png" id="103_q54li"]
+[ext_resource type="Texture2D" uid="uid://ddik0cjfkotdi" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_029.png" id="104_461eu"]
+[ext_resource type="Texture2D" uid="uid://bb28obetxm2fu" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_030.png" id="105_bupub"]
+[ext_resource type="Texture2D" uid="uid://dkhg0fkym8hmn" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_031.png" id="106_6qs4t"]
+[ext_resource type="Texture2D" uid="uid://yniymiswx47d" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_032.png" id="107_mig1e"]
+[ext_resource type="Texture2D" uid="uid://cb4gcevxmshsg" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_033.png" id="108_mho4n"]
+[ext_resource type="Texture2D" uid="uid://gn05qsc1yydt" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_034.png" id="109_ajiug"]
+[ext_resource type="Texture2D" uid="uid://dluv34enshrab" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_035.png" id="110_4bu63"]
+[ext_resource type="Texture2D" uid="uid://b3k8ysdixdpgx" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_036.png" id="111_xhn2b"]
+[ext_resource type="Texture2D" uid="uid://byft66bje0i8k" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_037.png" id="112_wljft"]
+[ext_resource type="Texture2D" uid="uid://bo2hutxm8i3ke" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_038.png" id="113_mwjti"]
+[ext_resource type="Texture2D" uid="uid://d1apbly3oxvo0" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_039.png" id="114_uc7ct"]
+[ext_resource type="Texture2D" uid="uid://dq2e6xelx13ey" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_040.png" id="115_kgnsa"]
+[ext_resource type="Texture2D" uid="uid://wtg5w2l13kpu" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_041.png" id="116_vjxqj"]
+[ext_resource type="Texture2D" uid="uid://b1eipy67iwnf2" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_042.png" id="117_jicxi"]
+[ext_resource type="Texture2D" uid="uid://csoii882as6my" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_043.png" id="118_ks11u"]
+[ext_resource type="Texture2D" uid="uid://boikkevvik805" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_044.png" id="119_vjdf3"]
+[ext_resource type="Texture2D" uid="uid://bhp6nfrfxw0gd" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_045.png" id="120_lrdk6"]
+[ext_resource type="Texture2D" uid="uid://bsaes7jk3b71p" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_046.png" id="121_dh7n2"]
+[ext_resource type="Texture2D" uid="uid://c8u3cuke864h5" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_047.png" id="122_ue7e4"]
+[ext_resource type="Texture2D" uid="uid://dgfv0ra355vmk" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_048.png" id="123_c1jyr"]
+[ext_resource type="Texture2D" uid="uid://crqtvtls2wp6b" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_049.png" id="124_ny8ag"]
+[ext_resource type="Texture2D" uid="uid://ouekmgsdcte1" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_050.png" id="125_oi512"]
+[ext_resource type="Texture2D" uid="uid://ch8hue6ewfic1" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_051.png" id="126_x1rvr"]
+[ext_resource type="Texture2D" uid="uid://buwjlmd8uqure" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_052.png" id="127_ddayj"]
+[ext_resource type="Texture2D" uid="uid://di814nu32ne7y" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_053.png" id="128_j652s"]
+[ext_resource type="Texture2D" uid="uid://csft8ngcvtk6j" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_054.png" id="129_8mesv"]
+[ext_resource type="Texture2D" uid="uid://ctf40bl5jtcrv" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_055.png" id="130_uh38u"]
+[ext_resource type="Texture2D" uid="uid://ccnntdyhk4j1q" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_056.png" id="131_c4wrb"]
+[ext_resource type="Texture2D" uid="uid://wb7i8x8mpgeg" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_057.png" id="132_vuu5o"]
+[ext_resource type="Texture2D" uid="uid://mqnub3v5clul" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_058.png" id="133_fewit"]
+[ext_resource type="Texture2D" uid="uid://imou2a3aealn" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_059.png" id="134_k5t1d"]
+[ext_resource type="Texture2D" uid="uid://bpnlf0v384t3r" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_060.png" id="135_buvlo"]
+[ext_resource type="Texture2D" uid="uid://ct74ntlnepyt6" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_061.png" id="136_0daa3"]
+[ext_resource type="Texture2D" uid="uid://danclibla1ubn" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_062.png" id="137_evppa"]
+[ext_resource type="Texture2D" uid="uid://d1n2ko848d7ah" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_063.png" id="138_0m2pj"]
+[ext_resource type="Texture2D" uid="uid://ce8opn78c61vw" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_064.png" id="139_yrrvm"]
+[ext_resource type="Texture2D" uid="uid://t5w8v1upfwn4" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_065.png" id="140_hfils"]
+[ext_resource type="Texture2D" uid="uid://bwlcnplttdyfs" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_066.png" id="141_xyys5"]
+[ext_resource type="Texture2D" uid="uid://deljt1eyf23wv" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_067.png" id="142_2cvl1"]
+[ext_resource type="Texture2D" uid="uid://bgkfgff2tihr7" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_068.png" id="143_5oc2d"]
+[ext_resource type="Texture2D" uid="uid://b1xfyy455wfg2" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_069.png" id="144_uat1j"]
+[ext_resource type="Texture2D" uid="uid://bfacbkxrsrf2b" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_070.png" id="145_s8115"]
+[ext_resource type="Texture2D" uid="uid://dq0ook1ji43q7" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_071.png" id="146_xrs07"]
+[ext_resource type="Texture2D" uid="uid://ciq6ay74aodi7" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_072.png" id="147_o8ctn"]
+[ext_resource type="Texture2D" uid="uid://bxwx1tyfvhjvk" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_073.png" id="148_kxbjw"]
+[ext_resource type="Texture2D" uid="uid://bm8m131cqrrps" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_074.png" id="149_15874"]
+[ext_resource type="Texture2D" uid="uid://cwks5jtr8sg84" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_075.png" id="150_flkd1"]
+[ext_resource type="Texture2D" uid="uid://37pac1uvv6uu" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_076.png" id="151_0cwle"]
+[ext_resource type="Texture2D" uid="uid://bkbuudf85xrdn" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_077.png" id="152_ybe7h"]
+[ext_resource type="Texture2D" uid="uid://b3em2qalx8g51" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_078.png" id="153_pemkn"]
+[ext_resource type="Texture2D" uid="uid://cys660crwidkb" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_079.png" id="154_2hioi"]
+[ext_resource type="Texture2D" uid="uid://cvty4edb7cqs6" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_080.png" id="155_1ihpw"]
+[ext_resource type="Texture2D" uid="uid://c7gbw414ceo8x" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_081.png" id="156_sd0p7"]
+[ext_resource type="Texture2D" uid="uid://bvuyxvv8iwn4o" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_082.png" id="157_pxyme"]
+[ext_resource type="Texture2D" uid="uid://2gahackgwey4" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_083.png" id="158_skqaj"]
+[ext_resource type="Texture2D" uid="uid://egr2400nk2ls" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_084.png" id="159_t77ga"]
+[ext_resource type="Texture2D" uid="uid://bj58exqsl5vmh" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_085.png" id="160_jfrwu"]
+[ext_resource type="Texture2D" uid="uid://dyctxxsf0cis7" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_086.png" id="161_61ixv"]
+[ext_resource type="Texture2D" uid="uid://kx2d7cxa1qdj" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_087.png" id="162_fclyv"]
+[ext_resource type="Texture2D" uid="uid://lphm3fn4xyxu" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_088.png" id="163_rmkmv"]
+[ext_resource type="Texture2D" uid="uid://mv6is2qtyacu" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_089.png" id="164_cuura"]
+[ext_resource type="Texture2D" uid="uid://dloiitcsqcpt5" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_090.png" id="165_lg712"]
+[ext_resource type="Texture2D" uid="uid://dkanwg6i638dw" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_091.png" id="166_qb0hd"]
+[ext_resource type="Texture2D" uid="uid://blfrbmih2btxy" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_092.png" id="167_m0h0d"]
+[ext_resource type="Texture2D" uid="uid://dwj25p7l7bkgb" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_093.png" id="168_x8i62"]
+[ext_resource type="Texture2D" uid="uid://057r7l0x3wfj" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_094.png" id="169_xw1xb"]
+[ext_resource type="Texture2D" uid="uid://w1fp2lm7vh3j" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_095.png" id="170_3nk8m"]
+[ext_resource type="Texture2D" uid="uid://c2hp8uk21nqx3" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_096.png" id="171_go7sx"]
+[ext_resource type="Texture2D" uid="uid://dybb3scmypjvl" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_097.png" id="172_ekyf1"]
+[ext_resource type="Texture2D" uid="uid://bsufg84gmevlg" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_098.png" id="173_rauwi"]
+[ext_resource type="Texture2D" uid="uid://ch1cqxvqo0jl4" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_099.png" id="174_l3fx8"]
+[ext_resource type="Texture2D" uid="uid://psg1p87paya5" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_100.png" id="175_7hcbd"]
+[ext_resource type="Texture2D" uid="uid://ddkbkj7uql3bw" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_101.png" id="176_qo8lm"]
+[ext_resource type="Texture2D" uid="uid://bawf86887yece" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_102.png" id="177_dwbr5"]
+[ext_resource type="Texture2D" uid="uid://cfle6qt8eja7w" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_103.png" id="178_s3ihf"]
+[ext_resource type="Texture2D" uid="uid://cnrhad35xuoab" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_104.png" id="179_udu42"]
+[ext_resource type="Texture2D" uid="uid://butd60w75nile" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_105.png" id="180_6p6k6"]
+[ext_resource type="Texture2D" uid="uid://by2pw5j7d7qcu" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_106.png" id="181_geggi"]
+[ext_resource type="Texture2D" uid="uid://3vyn0i4hostn" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_107.png" id="182_nkuct"]
+[ext_resource type="Texture2D" uid="uid://dyr548qfpd5sg" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_108.png" id="183_k8qih"]
+[ext_resource type="Texture2D" uid="uid://cieenclyuuefx" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_109.png" id="184_48eq5"]
+[ext_resource type="Texture2D" uid="uid://bcrtrl0h1qqb0" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_110.png" id="185_m8wsd"]
+[ext_resource type="Texture2D" uid="uid://drufg37ioqlso" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_111.png" id="186_dmgv0"]
+[ext_resource type="Texture2D" uid="uid://b1s4mvoreclhc" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_112.png" id="187_xoupt"]
+[ext_resource type="Texture2D" uid="uid://cquyhvfxy8xnv" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_113.png" id="188_r8qt0"]
+[ext_resource type="Texture2D" uid="uid://rex5x0yio3s" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_114.png" id="189_2qxpt"]
+[ext_resource type="Texture2D" uid="uid://c31bbllivv87w" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_115.png" id="190_pou6g"]
+[ext_resource type="Texture2D" uid="uid://bcdrrx1ehpbja" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_116.png" id="191_o0cp3"]
+[ext_resource type="Texture2D" uid="uid://bcxy370ns065e" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_117.png" id="192_hal6c"]
+[ext_resource type="Texture2D" uid="uid://bef4mbbqlvddv" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_118.png" id="193_ehnwm"]
+[ext_resource type="Texture2D" uid="uid://be1nnywr5aiu3" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_119.png" id="194_u2liw"]
+[ext_resource type="Texture2D" uid="uid://bevtydddsf6vq" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_120.png" id="195_pwm4k"]
+[ext_resource type="Texture2D" uid="uid://dtnexkudkctan" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_121.png" id="196_ombvo"]
+[ext_resource type="Texture2D" uid="uid://0hfyk3boiq51" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_122.png" id="197_v5sl6"]
+[ext_resource type="Texture2D" uid="uid://bssp4o1tn1uk8" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_123.png" id="198_lebt2"]
+[ext_resource type="Texture2D" uid="uid://bm03a1l3qgdqp" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_124.png" id="199_ry5hq"]
+[ext_resource type="Texture2D" uid="uid://bgqy251yf5md8" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_125.png" id="200_ctxq8"]
+[ext_resource type="Texture2D" uid="uid://bc5k1drilmno" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_126.png" id="201_0eoon"]
+[ext_resource type="Texture2D" uid="uid://x41qfx3fd4ud" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_127.png" id="202_lmysd"]
+[ext_resource type="Texture2D" uid="uid://ddsbi7gr2yc58" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_128.png" id="203_kycrf"]
+[ext_resource type="Texture2D" uid="uid://cxvgf6tioxo4s" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_129.png" id="204_ru73o"]
+[ext_resource type="Texture2D" uid="uid://b0hnat8xnrfas" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_130.png" id="205_b67h8"]
+[ext_resource type="Texture2D" uid="uid://c02sm8eg5n03g" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_131.png" id="206_fnbkd"]
+[ext_resource type="Texture2D" uid="uid://bmhyf4ruk7ahl" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_132.png" id="207_rkqvy"]
+[ext_resource type="Texture2D" uid="uid://cftcfbrdhtaaq" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_133.png" id="208_71k6d"]
+[ext_resource type="Texture2D" uid="uid://byde8vyn7dq5s" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_134.png" id="209_vovc8"]
+[ext_resource type="Texture2D" uid="uid://oxi20dnqbsfa" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_135.png" id="210_g0xah"]
+[ext_resource type="Texture2D" uid="uid://uv82hjioag17" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_136.png" id="211_o01de"]
+[ext_resource type="Texture2D" uid="uid://cylqrhay7poxq" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_137.png" id="212_f74fq"]
+[ext_resource type="Texture2D" uid="uid://ighhu5jg2lkh" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_138.png" id="213_2rxtb"]
+[ext_resource type="Texture2D" uid="uid://dd13aac1esiao" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_139.png" id="214_ckxbo"]
+[ext_resource type="Texture2D" uid="uid://c2d4jdmkhpeja" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_140.png" id="215_5fkfl"]
+[ext_resource type="Texture2D" uid="uid://bd731mvg18oic" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_141.png" id="216_man1m"]
+[ext_resource type="Texture2D" uid="uid://b556obqcr62g" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_142.png" id="217_vxm26"]
+[ext_resource type="Texture2D" uid="uid://0f2nnp6uirg8" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_143.png" id="218_25bf6"]
+[ext_resource type="Texture2D" uid="uid://e6c1v6mnljhb" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_144.png" id="219_4vx4f"]
+[ext_resource type="Texture2D" uid="uid://b241vij2aj8bv" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_145.png" id="220_1ivsa"]
+[ext_resource type="Texture2D" uid="uid://bi8nlexyl0mq7" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_146.png" id="221_l5k2v"]
+[ext_resource type="Texture2D" uid="uid://cte5t1udyuoer" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_147.png" id="222_3g7ws"]
+[ext_resource type="Texture2D" uid="uid://c5qfu5uk5gew4" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_148.png" id="223_m4txo"]
+[ext_resource type="Texture2D" uid="uid://biwhas0gcrg0k" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_149.png" id="224_xb2w6"]
+[ext_resource type="Texture2D" uid="uid://d3qg3surkvwkj" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_150.png" id="225_00fob"]
+[ext_resource type="Texture2D" uid="uid://bgs7gjkuhc56a" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_151.png" id="226_este3"]
+[ext_resource type="Texture2D" uid="uid://bqmxb3x2jx1l5" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_152.png" id="227_5amr8"]
+[ext_resource type="Texture2D" uid="uid://b7u4cuuiies14" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_153.png" id="228_u48kt"]
+[ext_resource type="Texture2D" uid="uid://c3l7cbdhei6sw" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_154.png" id="229_j41lp"]
+[ext_resource type="Texture2D" uid="uid://l76tpi2gwqp5" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_155.png" id="230_5ahft"]
+[ext_resource type="Texture2D" uid="uid://tmp5qd3hfof8" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_156.png" id="231_7uwim"]
+[ext_resource type="Texture2D" uid="uid://c00lnf8ixxpev" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_157.png" id="232_h2dii"]
+[ext_resource type="Texture2D" uid="uid://b6t2fexc83oca" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_158.png" id="233_nlm1c"]
+[ext_resource type="Texture2D" uid="uid://b3ic1pmdy4han" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_159.png" id="234_8865u"]
+[ext_resource type="Texture2D" uid="uid://mg00rjwmvma8" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_160.png" id="235_4hi36"]
+[ext_resource type="Texture2D" uid="uid://d0dut1qiuoyla" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_161.png" id="236_k4awj"]
+[ext_resource type="Texture2D" uid="uid://b1eo64uw03fhw" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_162.png" id="237_5anmr"]
+[ext_resource type="Texture2D" uid="uid://brkxekv3wqfw6" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_163.png" id="238_da0ye"]
+[ext_resource type="Texture2D" uid="uid://bcbw1a6otwy3j" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_164.png" id="239_lr6uh"]
+[ext_resource type="Texture2D" uid="uid://5ragweyn27h6" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_165.png" id="240_0wjf7"]
+[ext_resource type="Texture2D" uid="uid://cxa3gmhvrnkrh" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_166.png" id="241_6c1xv"]
+[ext_resource type="Texture2D" uid="uid://csdohbmnfgvcf" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_167.png" id="242_8m6kd"]
+[ext_resource type="Texture2D" uid="uid://bp0tdjes70eys" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_168.png" id="243_hj02i"]
+[ext_resource type="Texture2D" uid="uid://dlc63mpgpw8lv" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_169.png" id="244_way3v"]
+[ext_resource type="Texture2D" uid="uid://bgpt3m784x0xn" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_170.png" id="245_ur1le"]
+[ext_resource type="Texture2D" uid="uid://cac6knt8bb061" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_171.png" id="246_sefn5"]
+[ext_resource type="Texture2D" uid="uid://bgg2pmbb62ne0" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_172.png" id="247_b2m0g"]
+[ext_resource type="Texture2D" uid="uid://dfsakkxr453ps" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_173.png" id="248_7ferb"]
+[ext_resource type="Texture2D" uid="uid://cl6eygjvihc84" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_174.png" id="249_e0rn6"]
+[ext_resource type="Texture2D" uid="uid://s7yjsck7t1nn" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_175.png" id="250_t568u"]
+[ext_resource type="Texture2D" uid="uid://ba0xhviu5n4sy" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_176.png" id="251_8y5s1"]
+[ext_resource type="Texture2D" uid="uid://c8d1np5m76dco" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_177.png" id="252_hq3as"]
+[ext_resource type="Texture2D" uid="uid://bl13y6xd18m8x" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_178.png" id="253_sy807"]
+[ext_resource type="Texture2D" uid="uid://dliij5dbdtvba" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_179.png" id="254_el1re"]
+[ext_resource type="Texture2D" uid="uid://ca12vctlmhl6q" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_180.png" id="255_ld4k2"]
+[ext_resource type="Texture2D" uid="uid://dmw3sw3h7vhsd" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_181.png" id="256_5rno0"]
+[ext_resource type="Texture2D" uid="uid://d4gnfqqvefvb1" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_182.png" id="257_p4lau"]
+[ext_resource type="Texture2D" uid="uid://dn0st4phrim0d" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_183.png" id="258_iqs6f"]
+[ext_resource type="Texture2D" uid="uid://dws81sm4yajqd" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_184.png" id="259_46qmj"]
+[ext_resource type="Texture2D" uid="uid://bvincv68a47nr" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_185.png" id="260_3vp0l"]
+[ext_resource type="Texture2D" uid="uid://b1wjrivfsxxtb" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_186.png" id="261_fbimy"]
+[ext_resource type="Texture2D" uid="uid://bvq4pc5bai674" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_187.png" id="262_pygnh"]
+[ext_resource type="Texture2D" uid="uid://botccq237ukcm" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_188.png" id="263_jy33j"]
+[ext_resource type="Texture2D" uid="uid://c8duvjnys1pt4" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_189.png" id="264_bv3bo"]
+[ext_resource type="Texture2D" uid="uid://cg65nea8j1egt" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_190.png" id="265_a1uni"]
+[ext_resource type="Texture2D" uid="uid://dr1325yk6ynuy" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_191.png" id="266_gakn7"]
+[ext_resource type="Texture2D" uid="uid://c2ikokeivaxxb" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_192.png" id="267_3rwdl"]
+[ext_resource type="Texture2D" uid="uid://dfiv3is5los6k" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_193.png" id="268_bdddp"]
+[ext_resource type="Texture2D" uid="uid://dob7tbx8r30jn" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_194.png" id="269_ukqby"]
+[ext_resource type="Texture2D" uid="uid://defkth05yf8cf" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_195.png" id="270_5eb5e"]
+[ext_resource type="Texture2D" uid="uid://b4xfrt6oyo3g4" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_196.png" id="271_ibawv"]
+[ext_resource type="Texture2D" uid="uid://dbvb5g05ssbia" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_197.png" id="272_loqsm"]
+[ext_resource type="Texture2D" uid="uid://bw2yu4v2i02ye" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_198.png" id="273_gjmxy"]
+[ext_resource type="Texture2D" uid="uid://cmhv8sr65fnhs" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_199.png" id="274_dls6y"]
+[ext_resource type="Texture2D" uid="uid://bhtm8sb5ne0h0" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_200.png" id="275_yjjyu"]
+[ext_resource type="Texture2D" uid="uid://bg156k28evppv" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_201.png" id="276_2phwr"]
+[ext_resource type="Texture2D" uid="uid://duvuba7j2b344" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_202.png" id="277_bxxk7"]
+[ext_resource type="Texture2D" uid="uid://c4q1vmyespva" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_203.png" id="278_oo7y1"]
+[ext_resource type="Texture2D" uid="uid://ctxe3j55xdxf7" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_204.png" id="279_k0skk"]
+[ext_resource type="Texture2D" uid="uid://bwd7dvkqh4fwj" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_205.png" id="280_vky86"]
+[ext_resource type="Texture2D" uid="uid://da3khngndp6yd" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_206.png" id="281_nvhog"]
+[ext_resource type="Texture2D" uid="uid://bxkh15yw3odar" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_207.png" id="282_6yupl"]
+[ext_resource type="Texture2D" uid="uid://85ekr3fgp5jc" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_208.png" id="283_0piu2"]
+[ext_resource type="Texture2D" uid="uid://b87o1mtgmc2od" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_209.png" id="284_usr4j"]
+[ext_resource type="Texture2D" uid="uid://cprwmmy1ejlgg" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_210.png" id="285_1mowj"]
+[ext_resource type="Texture2D" uid="uid://dcfiw5wr0oo20" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_211.png" id="286_43chs"]
+[ext_resource type="Texture2D" uid="uid://ns53xb72x8pn" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_212.png" id="287_4wpqs"]
+[ext_resource type="Texture2D" uid="uid://cn2yfay7dhx1v" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_213.png" id="288_e48ai"]
+[ext_resource type="Texture2D" uid="uid://4mm44jut8tb4" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_214.png" id="289_3ai7a"]
+[ext_resource type="Texture2D" uid="uid://bopnm5pfb42qc" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_215.png" id="290_y26ee"]
+[ext_resource type="Texture2D" uid="uid://dicj4lug6kb3f" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_216.png" id="291_ffmin"]
+[ext_resource type="Texture2D" uid="uid://ck2jj07atw1ba" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_217.png" id="292_v8l4w"]
+[ext_resource type="Texture2D" uid="uid://dltvwpqhr58m" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_218.png" id="293_vto3n"]
+[ext_resource type="Texture2D" uid="uid://bph4te6ooat2m" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_219.png" id="294_h77od"]
+[ext_resource type="Texture2D" uid="uid://bn07dvxsge483" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_220.png" id="295_3t4hh"]
+[ext_resource type="Texture2D" uid="uid://ddg8kat860fjn" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_221.png" id="296_1d0yw"]
+[ext_resource type="Texture2D" uid="uid://cv5rtpyyukhjo" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_222.png" id="297_tk080"]
+[ext_resource type="Texture2D" uid="uid://y6nay6eglflq" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_223.png" id="298_glwqo"]
+[ext_resource type="Texture2D" uid="uid://ooj3x508ppcw" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_224.png" id="299_r66r3"]
+[ext_resource type="Texture2D" uid="uid://bnpp85slxktbc" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_225.png" id="300_bs4cc"]
+[ext_resource type="Texture2D" uid="uid://diappxyefktsk" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_226.png" id="301_3ramx"]
+[ext_resource type="Texture2D" uid="uid://8dlhstvm2ens" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_227.png" id="302_wf2iu"]
+[ext_resource type="Texture2D" uid="uid://1yv16dfokkts" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_228.png" id="303_1okva"]
+[ext_resource type="Texture2D" uid="uid://s6l8xyhc3vdw" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_229.png" id="304_ceox3"]
+[ext_resource type="Texture2D" uid="uid://dfsp22v5ej1la" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_230.png" id="305_ax05h"]
+[ext_resource type="Texture2D" uid="uid://dp37wej3x0hqa" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_231.png" id="306_0fepy"]
+[ext_resource type="Texture2D" uid="uid://bhdaiq1y54l7r" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_232.png" id="307_ykxfq"]
+[ext_resource type="Texture2D" uid="uid://cyh55lciv2yey" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_233.png" id="308_gum7e"]
+[ext_resource type="Texture2D" uid="uid://4gq5vdop0fle" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_234.png" id="309_e6eu6"]
+[ext_resource type="Texture2D" uid="uid://dnjwmkm1mhxhp" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_235.png" id="310_k4aft"]
+[ext_resource type="Texture2D" uid="uid://da7qlwfu1kcby" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_236.png" id="311_cj76j"]
+[ext_resource type="Texture2D" uid="uid://bfw56g2n7r2px" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_237.png" id="312_762c4"]
+[ext_resource type="Texture2D" uid="uid://dvdyy5ar3qbdu" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_238.png" id="313_lp0k6"]
+[ext_resource type="Texture2D" uid="uid://6ydmtoviipie" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_239.png" id="314_08628"]
+[ext_resource type="Texture2D" uid="uid://dhfoqp5ylpsp2" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_240.png" id="315_hvory"]
+[ext_resource type="Texture2D" uid="uid://b8khj2ds2npp4" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_241.png" id="316_ph0od"]
+[ext_resource type="Texture2D" uid="uid://3anjgjqp4p0i" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_242.png" id="317_j43pb"]
+[ext_resource type="Texture2D" uid="uid://c0d12ntbswqa" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_243.png" id="318_clglh"]
+[ext_resource type="Texture2D" uid="uid://cb24ppkyij105" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_244.png" id="319_6kx1a"]
+[ext_resource type="Texture2D" uid="uid://ui1mpxhs64cm" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_245.png" id="320_ygngb"]
+[ext_resource type="Texture2D" uid="uid://cphie112t1a45" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_246.png" id="321_p2xx8"]
+[ext_resource type="Texture2D" uid="uid://ca1fm4kfvohei" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_247.png" id="322_if50b"]
+[ext_resource type="Texture2D" uid="uid://d0ghoxcqinqqh" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_248.png" id="323_swvvq"]
+[ext_resource type="Texture2D" uid="uid://bfaownmv7xrq3" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_249.png" id="324_52lst"]
+[ext_resource type="Texture2D" uid="uid://bih0fhnd27gck" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_250.png" id="325_xtbaf"]
+[ext_resource type="Texture2D" uid="uid://npdcbfftnaac" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_251.png" id="326_vlmwr"]
+[ext_resource type="Texture2D" uid="uid://0t8a0hyhq38t" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_252.png" id="327_hym6o"]
+[ext_resource type="Texture2D" uid="uid://du2x0ro6sydb3" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_253.png" id="328_lq7rk"]
+[ext_resource type="Texture2D" uid="uid://bmc3go3ggnbdu" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_254.png" id="329_0emhw"]
+[ext_resource type="Texture2D" uid="uid://csvp65g0fuuti" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_255.png" id="330_p8fhq"]
+[ext_resource type="Texture2D" uid="uid://dylcym24kq4l" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_256.png" id="331_qrone"]
+[ext_resource type="Texture2D" uid="uid://bnjpg4ci0jdos" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_257.png" id="332_llcfx"]
+[ext_resource type="Texture2D" uid="uid://b88guknl2opqh" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_258.png" id="333_2xs6q"]
+[ext_resource type="Texture2D" uid="uid://bsmp1bamtmvjs" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_259.png" id="334_5nbf1"]
+[ext_resource type="Texture2D" uid="uid://dhk85n6aepvkm" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_260.png" id="335_2x1g8"]
+[ext_resource type="Texture2D" uid="uid://df670tdvtmrrd" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_261.png" id="336_51qrg"]
+[ext_resource type="Texture2D" uid="uid://bw84cr8ax0fvk" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_262.png" id="337_518uh"]
+[ext_resource type="Texture2D" uid="uid://pbx1vnstsiig" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_263.png" id="338_82cag"]
+[ext_resource type="Texture2D" uid="uid://cp6nl5oxt834x" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_264.png" id="339_60gvj"]
+[ext_resource type="Texture2D" uid="uid://b8s1n7evle50i" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_265.png" id="340_w5xqx"]
+[ext_resource type="Texture2D" uid="uid://b16wmy8mc7rho" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_266.png" id="341_8w23p"]
+[ext_resource type="Texture2D" uid="uid://b54qlhi2wbald" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_267.png" id="342_cbltl"]
+[ext_resource type="Texture2D" uid="uid://m5octhk3psti" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_268.png" id="343_kv4i8"]
+[ext_resource type="Texture2D" uid="uid://c6pk03xf4vs17" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_269.png" id="344_4yy67"]
+[ext_resource type="Texture2D" uid="uid://bx1ws4xam7tnq" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_270.png" id="345_tk23r"]
+[ext_resource type="Texture2D" uid="uid://dnltxjraoabie" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_271.png" id="346_8bqjq"]
+[ext_resource type="Texture2D" uid="uid://ebvxcfyjllku" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_272.png" id="347_ngfxd"]
+[ext_resource type="Texture2D" uid="uid://2jypehcpbep4" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_273.png" id="348_30408"]
+[ext_resource type="Texture2D" uid="uid://m1lygt0cyvq3" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_274.png" id="349_p31x4"]
+[ext_resource type="Texture2D" uid="uid://ip7drva368l" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_275.png" id="350_n4dnm"]
+[ext_resource type="Texture2D" uid="uid://3gg6gf6jc3w1" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_276.png" id="351_8c6nu"]
+[ext_resource type="Texture2D" uid="uid://dguok5ir0lsld" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_277.png" id="352_kthsn"]
+[ext_resource type="Texture2D" uid="uid://dgrjna3rklei1" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_278.png" id="353_keaju"]
+[ext_resource type="Texture2D" uid="uid://cgjl18ka3x1jn" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_279.png" id="354_tiep8"]
+[ext_resource type="Texture2D" uid="uid://bnjmy5dl8ida8" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_280.png" id="355_vs3o8"]
+[ext_resource type="Texture2D" uid="uid://dsxlxbx85tqis" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_281.png" id="356_q2ted"]
+[ext_resource type="Texture2D" uid="uid://bx8wni6bj5aqm" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_282.png" id="357_gp06q"]
+[ext_resource type="Texture2D" uid="uid://g33g7nlmekfp" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_283.png" id="358_hy6p6"]
+[ext_resource type="Texture2D" uid="uid://bqfej3s2lrg7o" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_284.png" id="359_cxmxn"]
+[ext_resource type="Texture2D" uid="uid://okusxn58cj4s" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_285.png" id="360_qu4wa"]
+[ext_resource type="Texture2D" uid="uid://das5x8pu0k14a" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_286.png" id="361_8tjr4"]
+[ext_resource type="Texture2D" uid="uid://gbqtxbpe43gk" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_287.png" id="362_qbiph"]
+[ext_resource type="Texture2D" uid="uid://84os8ie6tnur" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_288.png" id="363_tq6qg"]
+[ext_resource type="Texture2D" uid="uid://c5puk835jbq72" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_289.png" id="364_ogrdo"]
+[ext_resource type="Texture2D" uid="uid://d1gatm8mi34qu" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_290.png" id="365_lpsju"]
+[ext_resource type="Texture2D" uid="uid://be2kv1vy2uqxt" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_291.png" id="366_6nxi3"]
+[ext_resource type="Texture2D" uid="uid://gf7jd2l6cnnl" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_292.png" id="367_2d4ab"]
+[ext_resource type="Texture2D" uid="uid://bsgyfxuhgr1n5" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_293.png" id="368_wanv7"]
+[ext_resource type="Texture2D" uid="uid://mb7igtwl80d7" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_294.png" id="369_cdhlh"]
+[ext_resource type="Texture2D" uid="uid://cujmxmgdl7bba" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_295.png" id="370_6164f"]
+[ext_resource type="Texture2D" uid="uid://cm4wmnxh3re6m" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_296.png" id="371_sw2a6"]
+[ext_resource type="Texture2D" uid="uid://tqnungefpfy1" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_297.png" id="372_qj87l"]
+[ext_resource type="Texture2D" uid="uid://besvwkawp2p37" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_298.png" id="373_rfpoc"]
+[ext_resource type="Texture2D" uid="uid://bwvec5vcpuvxk" path="res://sprites/winx/Винкс Клуб - 1 сезон - Начальная песня_299.png" id="374_1se3q"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_c8e1q"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("75_74a0o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76_bi0s5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77_j76cm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78_7dupj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79_3esm7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80_qsgfy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81_gaqr7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82_854aq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83_p4y0m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84_68y2e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85_m6a4i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86_ixmnu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87_ew3hs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88_jcctr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89_h7qgm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("90_6wuw2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("91_bq160")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92_s26dw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("93_6ohw7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94_b5brh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("95_40pp6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("96_kj2fa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("97_rbx2c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("98_g4o6d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("99_5se8t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("100_v4ltq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("101_0ssxn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("102_dj481")
+}, {
+"duration": 1.0,
+"texture": ExtResource("103_q54li")
+}, {
+"duration": 1.0,
+"texture": ExtResource("104_461eu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("105_bupub")
+}, {
+"duration": 1.0,
+"texture": ExtResource("106_6qs4t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("107_mig1e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("108_mho4n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("109_ajiug")
+}, {
+"duration": 1.0,
+"texture": ExtResource("110_4bu63")
+}, {
+"duration": 1.0,
+"texture": ExtResource("111_xhn2b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("112_wljft")
+}, {
+"duration": 1.0,
+"texture": ExtResource("113_mwjti")
+}, {
+"duration": 1.0,
+"texture": ExtResource("114_uc7ct")
+}, {
+"duration": 1.0,
+"texture": ExtResource("115_kgnsa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("116_vjxqj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("117_jicxi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("118_ks11u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("119_vjdf3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("120_lrdk6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("121_dh7n2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("122_ue7e4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("123_c1jyr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("124_ny8ag")
+}, {
+"duration": 1.0,
+"texture": ExtResource("125_oi512")
+}, {
+"duration": 1.0,
+"texture": ExtResource("126_x1rvr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("127_ddayj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("128_j652s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("129_8mesv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("130_uh38u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("131_c4wrb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("132_vuu5o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("133_fewit")
+}, {
+"duration": 1.0,
+"texture": ExtResource("134_k5t1d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("135_buvlo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("136_0daa3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("137_evppa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("138_0m2pj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("139_yrrvm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("140_hfils")
+}, {
+"duration": 1.0,
+"texture": ExtResource("141_xyys5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("142_2cvl1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("143_5oc2d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("144_uat1j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("145_s8115")
+}, {
+"duration": 1.0,
+"texture": ExtResource("146_xrs07")
+}, {
+"duration": 1.0,
+"texture": ExtResource("147_o8ctn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("148_kxbjw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("149_15874")
+}, {
+"duration": 1.0,
+"texture": ExtResource("150_flkd1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("151_0cwle")
+}, {
+"duration": 1.0,
+"texture": ExtResource("152_ybe7h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("153_pemkn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("154_2hioi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("155_1ihpw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("156_sd0p7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("157_pxyme")
+}, {
+"duration": 1.0,
+"texture": ExtResource("158_skqaj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("159_t77ga")
+}, {
+"duration": 1.0,
+"texture": ExtResource("160_jfrwu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("161_61ixv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("162_fclyv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("163_rmkmv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("164_cuura")
+}, {
+"duration": 1.0,
+"texture": ExtResource("165_lg712")
+}, {
+"duration": 1.0,
+"texture": ExtResource("166_qb0hd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("167_m0h0d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("168_x8i62")
+}, {
+"duration": 1.0,
+"texture": ExtResource("169_xw1xb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("170_3nk8m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("171_go7sx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("172_ekyf1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("173_rauwi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("174_l3fx8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("175_7hcbd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("176_qo8lm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("177_dwbr5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("178_s3ihf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("179_udu42")
+}, {
+"duration": 1.0,
+"texture": ExtResource("180_6p6k6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("181_geggi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("182_nkuct")
+}, {
+"duration": 1.0,
+"texture": ExtResource("183_k8qih")
+}, {
+"duration": 1.0,
+"texture": ExtResource("184_48eq5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("185_m8wsd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("186_dmgv0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("187_xoupt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("188_r8qt0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("189_2qxpt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("190_pou6g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("191_o0cp3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("192_hal6c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("193_ehnwm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("194_u2liw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("195_pwm4k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("196_ombvo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("197_v5sl6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("198_lebt2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("199_ry5hq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("200_ctxq8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("201_0eoon")
+}, {
+"duration": 1.0,
+"texture": ExtResource("202_lmysd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("203_kycrf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("204_ru73o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("205_b67h8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("206_fnbkd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("207_rkqvy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("208_71k6d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("209_vovc8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("210_g0xah")
+}, {
+"duration": 1.0,
+"texture": ExtResource("211_o01de")
+}, {
+"duration": 1.0,
+"texture": ExtResource("212_f74fq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("213_2rxtb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("214_ckxbo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("215_5fkfl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("216_man1m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("217_vxm26")
+}, {
+"duration": 1.0,
+"texture": ExtResource("218_25bf6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("219_4vx4f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("220_1ivsa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("221_l5k2v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("222_3g7ws")
+}, {
+"duration": 1.0,
+"texture": ExtResource("223_m4txo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("224_xb2w6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("225_00fob")
+}, {
+"duration": 1.0,
+"texture": ExtResource("226_este3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("227_5amr8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("228_u48kt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("229_j41lp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("230_5ahft")
+}, {
+"duration": 1.0,
+"texture": ExtResource("231_7uwim")
+}, {
+"duration": 1.0,
+"texture": ExtResource("232_h2dii")
+}, {
+"duration": 1.0,
+"texture": ExtResource("233_nlm1c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("234_8865u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("235_4hi36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("236_k4awj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("237_5anmr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("238_da0ye")
+}, {
+"duration": 1.0,
+"texture": ExtResource("239_lr6uh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("240_0wjf7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("241_6c1xv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("242_8m6kd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("243_hj02i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("244_way3v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("245_ur1le")
+}, {
+"duration": 1.0,
+"texture": ExtResource("246_sefn5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("247_b2m0g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("248_7ferb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("249_e0rn6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("250_t568u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("251_8y5s1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("252_hq3as")
+}, {
+"duration": 1.0,
+"texture": ExtResource("253_sy807")
+}, {
+"duration": 1.0,
+"texture": ExtResource("254_el1re")
+}, {
+"duration": 1.0,
+"texture": ExtResource("255_ld4k2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("256_5rno0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("257_p4lau")
+}, {
+"duration": 1.0,
+"texture": ExtResource("258_iqs6f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("259_46qmj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("260_3vp0l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("261_fbimy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("262_pygnh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("263_jy33j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("264_bv3bo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("265_a1uni")
+}, {
+"duration": 1.0,
+"texture": ExtResource("266_gakn7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("267_3rwdl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("268_bdddp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("269_ukqby")
+}, {
+"duration": 1.0,
+"texture": ExtResource("270_5eb5e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("271_ibawv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("272_loqsm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("273_gjmxy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("274_dls6y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("275_yjjyu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("276_2phwr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("277_bxxk7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("278_oo7y1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("279_k0skk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("280_vky86")
+}, {
+"duration": 1.0,
+"texture": ExtResource("281_nvhog")
+}, {
+"duration": 1.0,
+"texture": ExtResource("282_6yupl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("283_0piu2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("284_usr4j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("285_1mowj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("286_43chs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("287_4wpqs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("288_e48ai")
+}, {
+"duration": 1.0,
+"texture": ExtResource("289_3ai7a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("290_y26ee")
+}, {
+"duration": 1.0,
+"texture": ExtResource("291_ffmin")
+}, {
+"duration": 1.0,
+"texture": ExtResource("292_v8l4w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("293_vto3n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("294_h77od")
+}, {
+"duration": 1.0,
+"texture": ExtResource("295_3t4hh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("296_1d0yw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("297_tk080")
+}, {
+"duration": 1.0,
+"texture": ExtResource("298_glwqo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("299_r66r3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("300_bs4cc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("301_3ramx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("302_wf2iu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("303_1okva")
+}, {
+"duration": 1.0,
+"texture": ExtResource("304_ceox3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("305_ax05h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("306_0fepy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("307_ykxfq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("308_gum7e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("309_e6eu6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("310_k4aft")
+}, {
+"duration": 1.0,
+"texture": ExtResource("311_cj76j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("312_762c4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("313_lp0k6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("314_08628")
+}, {
+"duration": 1.0,
+"texture": ExtResource("315_hvory")
+}, {
+"duration": 1.0,
+"texture": ExtResource("316_ph0od")
+}, {
+"duration": 1.0,
+"texture": ExtResource("317_j43pb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("318_clglh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("319_6kx1a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("320_ygngb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("321_p2xx8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("322_if50b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("323_swvvq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("324_52lst")
+}, {
+"duration": 1.0,
+"texture": ExtResource("325_xtbaf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("326_vlmwr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("327_hym6o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("328_lq7rk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("329_0emhw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("330_p8fhq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("331_qrone")
+}, {
+"duration": 1.0,
+"texture": ExtResource("332_llcfx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("333_2xs6q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("334_5nbf1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("335_2x1g8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("336_51qrg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("337_518uh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("338_82cag")
+}, {
+"duration": 1.0,
+"texture": ExtResource("339_60gvj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("340_w5xqx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("341_8w23p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("342_cbltl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("343_kv4i8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("344_4yy67")
+}, {
+"duration": 1.0,
+"texture": ExtResource("345_tk23r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("346_8bqjq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("347_ngfxd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("348_30408")
+}, {
+"duration": 1.0,
+"texture": ExtResource("349_p31x4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("350_n4dnm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("351_8c6nu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("352_kthsn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("353_keaju")
+}, {
+"duration": 1.0,
+"texture": ExtResource("354_tiep8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("355_vs3o8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("356_q2ted")
+}, {
+"duration": 1.0,
+"texture": ExtResource("357_gp06q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("358_hy6p6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("359_cxmxn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("360_qu4wa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("361_8tjr4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("362_qbiph")
+}, {
+"duration": 1.0,
+"texture": ExtResource("363_tq6qg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("364_ogrdo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("365_lpsju")
+}, {
+"duration": 1.0,
+"texture": ExtResource("366_6nxi3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("367_2d4ab")
+}, {
+"duration": 1.0,
+"texture": ExtResource("368_wanv7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("369_cdhlh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("370_6164f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("371_sw2a6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("372_qj87l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("373_rfpoc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("374_1se3q")
+}],
+"loop": true,
+"name": &"new_animation_2",
+"speed": 10.0
+}]
+
+[node name="Winx" type="Node2D"]
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("1_ecafa")
+volume_db = -10.0
+autoplay = true
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(389, 300)
+scale = Vector2(0.962, 0.989)
+sprite_frames = SubResource("SpriteFrames_c8e1q")
+animation = &"new_animation_2"
+autoplay = "new_animation_2"
+
+[node name="cute_platform" parent="." instance=ExtResource("75_acpnh")]
+position = Vector2(-4, 45)
+layer_0/tile_data = PackedInt32Array(393192, 327680, 0, 458728, 327680, 0, 524264, 262144, 0, 589800, 262144, 1, 655336, 327680, 0, 720872, 262144, 0, 786408, 327680, 0, 851944, 262144, 0, 917480, 327680, 0, 983016, 262144, 0, 1048552, 262144, 0, 1114088, 327680, 1, 1179624, 262144, 0, 1245160, 327680, 0, 393193, 262144, 1, 458729, 262144, 0, 524265, 327680, 0, 589801, 327680, 0, 655337, 262144, 0, 720873, 327680, 0, 786409, 262144, 0, 851945, 262144, 1, 917481, 327680, 1, 983017, 327680, 0, 1048553, 327680, 1, 1114089, 327680, 0, 1179625, 262144, 1, 1245161, 262144, 1, 393194, 327680, 0, 458730, 327680, 0, 524266, 262144, 0, 589802, 327680, 0, 655338, 262144, 1, 720874, 327680, 1, 786410, 262144, 1, 851946, 262144, 0, 917482, 262144, 1, 983018, 262144, 0, 1048554, 327680, 0, 1114090, 262144, 0, 1179626, 327680, 1, 1245162, 327680, 1, 393195, 262144, 1, 458731, 327680, 1, 524267, 327680, 1, 589803, 262144, 1, 655339, 327680, 0, 720875, 262144, 1, 786411, 327680, 1, 851947, 327680, 0, 917483, 327680, 0, 983019, 262144, 0, 1048555, 262144, 0, 1114091, 262144, 1, 1179627, 262144, 1, 1245163, 262144, 1, 393196, 262144, 0, 458732, 327680, 0, 524268, 262144, 0, 589804, 327680, 0, 655340, 262144, 0, 720876, 262144, 0, 786412, 327680, 1, 851948, 262144, 1, 917484, 327680, 1, 983020, 262144, 1, 1048556, 327680, 1, 1114092, 262144, 1, 1179628, 262144, 0, 1245164, 327680, 1, 393197, 327680, 0, 458733, 327680, 0, 983021, 327680, 0, 1048557, 327680, 0, 1114093, 327680, 0, 1179629, 262144, 0, 1245165, 327680, 0, 393198, 262144, 1, 458734, 327680, 0, 983022, 262144, 1, 1048558, 262144, 1, 1114094, 327680, 1, 1179630, 327680, 1, 1245166, 327680, 0, 983023, 327680, 1, 1048559, 327680, 0, 1114095, 262144, 0, 1179631, 327680, 0, 1245167, 327680, 0, 983024, 262144, 1, 1048560, 327680, 0, 1114096, 262144, 1, 1179632, 327680, 1, 1245168, 262144, 0, 983025, 327680, 1, 1048561, 327680, 1, 1114097, 327680, 0, 1179633, 327680, 0, 1245169, 327680, 1, 983026, 327680, 1, 1048562, 327680, 1, 1114098, 262144, 1, 1179634, 327680, 0, 1245170, 327680, 1, 983027, 327680, 0, 1048563, 262144, 1, 1114099, 262144, 0, 1179635, 262144, 0, 1245171, 262144, 0, 983028, 327680, 1, 1048564, 327680, 0, 1114100, 262144, 0, 1179636, 262144, 0, 1245172, 262144, 0, 983029, 327680, 1, 1048565, 327680, 1, 1114101, 327680, 0, 1179637, 262144, 0, 1245173, 327680, 1, 983030, 262144, 0, 1048566, 262144, 0, 1114102, 262144, 1, 1179638, 262144, 1, 1245174, 262144, 0, 983031, 262144, 1, 1048567, 262144, 0, 1114103, 262144, 0, 1179639, 262144, 1, 1245175, 262144, 0, 983032, 327680, 0, 1048568, 327680, 0, 1114104, 262144, 1, 1179640, 262144, 1, 1245176, 327680, 1, 983033, 327680, 0, 1048569, 327680, 0, 1114105, 262144, 0, 1179641, 262144, 0, 1245177, 327680, 0, 983034, 262144, 1, 1048570, 262144, 1, 1114106, 262144, 1, 1179642, 327680, 0, 1245178, 262144, 0, 983035, 262144, 0, 1048571, 327680, 0, 1114107, 327680, 0, 1179643, 262144, 0, 1245179, 327680, 0, 983036, 327680, 0, 1048572, 262144, 1, 1114108, 262144, 0, 1179644, 327680, 0, 1245180, 262144, 1, 983037, 262144, 1, 1048573, 327680, 0, 1114109, 262144, 0, 1179645, 262144, 1, 1245181, 262144, 0, 983038, 262144, 0, 1048574, 327680, 1, 1114110, 262144, 0, 1179646, 262144, 1, 1245182, 327680, 0, 983039, 262144, 1, 1048575, 262144, 0, 1114111, 262144, 0, 1179647, 327680, 0, 1245183, 327680, 1, 917504, 327680, 0, 983040, 327680, 0, 1048576, 327680, 0, 1114112, 262144, 1, 1179648, 327680, 0, 917505, 327680, 0, 983041, 327680, 0, 1048577, 262144, 0, 1114113, 262144, 1, 1179649, 327680, 1, 917506, 327680, 0, 983042, 262144, 1, 1048578, 262144, 0, 1114114, 327680, 1, 1179650, 262144, 1, 917507, 262144, 0, 983043, 327680, 1, 1048579, 262144, 0, 1114115, 327680, 0, 1179651, 327680, 0, 917508, 262144, 0, 983044, 262144, 0, 1048580, 262144, 1, 1114116, 262144, 1, 1179652, 262144, 1, 917509, 262144, 1, 983045, 262144, 0, 1048581, 262144, 0, 1114117, 262144, 1, 1179653, 327680, 1, 917510, 327680, 1, 983046, 327680, 0, 1048582, 262144, 0, 1114118, 327680, 0, 1179654, 327680, 0, 917511, 327680, 1, 983047, 327680, 1, 1048583, 262144, 0, 1114119, 262144, 0, 1179655, 327680, 1, 917512, 262144, 0, 983048, 262144, 0, 1048584, 262144, 0, 1114120, 327680, 1, 1179656, 262144, 0, 917513, 262144, 1, 983049, 327680, 0, 1048585, 327680, 1, 1114121, 327680, 0, 1179657, 262144, 0, 786442, 262144, 1, 851978, 262144, 0, 917514, 262144, 1, 983050, 327680, 1, 1048586, 262144, 1, 1114122, 262144, 0, 1179658, 262144, 0, 786443, 262144, 1, 851979, 262144, 0, 917515, 327680, 0, 983051, 327680, 0, 1048587, 327680, 0, 1114123, 262144, 0, 1179659, 327680, 1, 786444, 327680, 1, 851980, 327680, 1, 917516, 262144, 0, 983052, 327680, 1, 1048588, 262144, 1, 1114124, 262144, 1, 1179660, 262144, 1, 786445, 262144, 0, 851981, 262144, 0, 917517, 327680, 0, 983053, 327680, 1, 1048589, 327680, 1, 1114125, 327680, 0, 1179661, 327680, 0, 786446, 327680, 0, 851982, 262144, 0, 917518, 262144, 1, 983054, 262144, 1, 1048590, 327680, 1, 1114126, 327680, 0, 1179662, 262144, 1, 327695, 327680, 0, 393231, 327680, 0, 458767, 262144, 0, 524303, 262144, 0, 589839, 327680, 1, 655375, 327680, 1, 720911, 262144, 0, 786447, 262144, 0, 851983, 327680, 1, 917519, 262144, 0, 983055, 262144, 0, 1048591, 262144, 1, 1114127, 327680, 1, 1179663, 262144, 1, 327696, 327680, 1, 393232, 327680, 1, 458768, 327680, 1, 524304, 262144, 1, 589840, 262144, 1, 655376, 327680, 0, 720912, 327680, 0, 786448, 262144, 0, 851984, 262144, 1, 917520, 262144, 0, 983056, 262144, 0, 1048592, 327680, 0, 1114128, 262144, 1, 1179664, 262144, 1, 327697, 327680, 0, 393233, 327680, 0, 458769, 327680, 1, 524305, 262144, 0, 589841, 262144, 1, 655377, 327680, 1, 720913, 262144, 1, 786449, 327680, 0, 851985, 327680, 0, 917521, 262144, 0, 983057, 327680, 0, 1048593, 327680, 0, 1114129, 262144, 0, 1179665, 327680, 0, 327698, 327680, 1, 393234, 327680, 1, 458770, 327680, 1, 524306, 262144, 1, 589842, 327680, 1, 655378, 327680, 0, 720914, 327680, 1, 786450, 327680, 0, 851986, 262144, 0, 917522, 262144, 1, 983058, 327680, 1, 1048594, 262144, 1, 1114130, 262144, 1, 1179666, 262144, 0, 327699, 262144, 1, 393235, 262144, 0, 458771, 262144, 0, 524307, 262144, 0, 589843, 327680, 1, 655379, 327680, 0, 720915, 262144, 1, 786451, 262144, 0, 851987, 327680, 1, 917523, 327680, 1, 983059, 327680, 0, 1048595, 262144, 1, 1114131, 262144, 0, 1179667, 262144, 0, 327700, 262144, 0, 393236, 327680, 1, 458772, 262144, 1, 524308, 262144, 1, 589844, 262144, 1, 655380, 327680, 1, 720916, 327680, 0, 786452, 327680, 0, 851988, 327680, 1, 917524, 262144, 0, 983060, 262144, 0, 1048596, 262144, 0, 1114132, 262144, 0, 1179668, 262144, 0, 327701, 262144, 1, 393237, 262144, 0, 458773, 262144, 1, 524309, 327680, 0, 589845, 327680, 1, 655381, 327680, 0, 720917, 327680, 0, 786453, 262144, 0, 851989, 327680, 1, 917525, 327680, 1, 983061, 262144, 1, 1048597, 327680, 0, 1114133, 327680, 1, 1179669, 262144, 0, 327702, 262144, 0, 393238, 327680, 1, 458774, 327680, 0, 524310, 327680, 1, 589846, 327680, 0, 655382, 327680, 0, 720918, 327680, 0, 786454, 262144, 1, 851990, 262144, 1, 917526, 327680, 1, 983062, 327680, 1, 1048598, 262144, 1, 1114134, 262144, 0, 1179670, 262144, 1, 327703, 262144, 0, 393239, 262144, 0, 458775, 262144, 0, 524311, 327680, 0, 589847, 262144, 1, 655383, 327680, 1, 720919, 327680, 0, 786455, 262144, 1, 851991, 262144, 1, 917527, 327680, 1, 983063, 262144, 1, 1048599, 327680, 0, 1114135, 262144, 1, 1179671, 327680, 0, -1638441, 327680, 0, -1572905, 327680, 1, -1507369, 262144, 0, -1441833, 327680, 1, -1376297, 262144, 0, -1310761, 262144, 0, -1245225, 262144, 0, -1179689, 262144, 0, -1114153, 262144, 1, -1048617, 262144, 0, -983081, 262144, 0, -917545, 262144, 1, -852009, 262144, 0, -786473, 327680, 0, -720937, 327680, 0, -655401, 327680, 0, -589865, 262144, 0, -524329, 262144, 1, -458793, 327680, 1, -393257, 262144, 0, -327721, 262144, 1, -262185, 262144, 1, -196649, 262144, 1, -131113, 327680, 0, -65577, 327680, 1, -41, 262144, 1, 65495, 262144, 1, 131031, 262144, 0, 196567, 327680, 1, 262103, 327680, 1, 327639, 262144, 1, 393175, 327680, 1, 458711, 262144, 0, -1638440, 327680, 1, -1572904, 327680, 0, -1507368, 327680, 1, -1441832, 262144, 1, -1376296, 327680, 1, -1310760, 262144, 0, -1245224, 262144, 1, -1179688, 262144, 1, -1114152, 262144, 1, -1048616, 262144, 1, -983080, 262144, 1, -917544, 327680, 1, -852008, 262144, 1, -786472, 262144, 1, -720936, 327680, 1, -655400, 262144, 0, -589864, 262144, 0, -524328, 327680, 0, -458792, 262144, 0, -393256, 262144, 0, -327720, 327680, 0, -262184, 262144, 1, -196648, 327680, 0, -131112, 327680, 0, -65576, 327680, 0, -40, 262144, 1, 65496, 262144, 0, 131032, 327680, 1, 196568, 262144, 1, 262104, 327680, 1, 327640, 327680, 0, 393176, 327680, 0, 458712, 262144, 0, -1638439, 327680, 0, -1572903, 327680, 0, -1507367, 262144, 0, -1441831, 262144, 0, -1376295, 262144, 1, -1310759, 262144, 0, -1245223, 262144, 0, -1179687, 262144, 0, -1114151, 262144, 0, -1048615, 262144, 1, -983079, 327680, 1, -917543, 327680, 1, -852007, 327680, 0, -786471, 327680, 0, -720935, 327680, 1, -655399, 262144, 0, -589863, 327680, 0, -524327, 327680, 0, -458791, 262144, 1, -393255, 327680, 1, -327719, 262144, 0, -262183, 327680, 0, -196647, 262144, 1, -131111, 327680, 1, -65575, 327680, 0, -39, 262144, 0, 65497, 327680, 0, 131033, 262144, 1, 196569, 262144, 0, 262105, 327680, 1, 327641, 262144, 0, 393177, 327680, 1, 458713, 262144, 1, -1638438, 262144, 0, -1572902, 327680, 0, -1507366, 327680, 1, -1441830, 262144, 1, -1376294, 327680, 0, -1310758, 327680, 0, -1245222, 327680, 0, -1179686, 327680, 1, -1114150, 262144, 0, -1048614, 327680, 0, -983078, 262144, 1, -917542, 262144, 1, -852006, 327680, 1, -786470, 327680, 0, -720934, 262144, 1, -655398, 262144, 1, -589862, 262144, 1, -524326, 327680, 0, -458790, 262144, 1, -393254, 327680, 0, -327718, 327680, 1, -262182, 327680, 0, -196646, 262144, 1, -131110, 262144, 1, -65574, 327680, 0, -38, 327680, 0, 65498, 327680, 0, 131034, 262144, 1, 196570, 327680, 0, 262106, 262144, 0, 327642, 327680, 0, 393178, 262144, 0, 458714, 327680, 0, -1638437, 262144, 1, -1572901, 327680, 1, -1507365, 262144, 1, -1441829, 327680, 0, -1376293, 262144, 0, -1310757, 262144, 0, -1245221, 262144, 0, -1179685, 327680, 0, -1114149, 262144, 0, -1048613, 327680, 1, -983077, 327680, 1, -917541, 262144, 1, -852005, 262144, 0, -786469, 327680, 0, -720933, 327680, 1, -655397, 327680, 0, -589861, 262144, 0, -524325, 327680, 1, -458789, 327680, 0, -393253, 262144, 1, -327717, 327680, 0, -262181, 327680, 0, -196645, 327680, 1, -131109, 262144, 1, -65573, 262144, 0, -37, 262144, 0, 65499, 327680, 0, 131035, 262144, 0, 196571, 327680, 0, 262107, 262144, 0, 327643, 327680, 1, 393179, 327680, 0, 458715, 262144, 0, -1638436, 262144, 0, -1572900, 327680, 1, -1507364, 262144, 0, -1441828, 262144, 0, -1376292, 262144, 0, -1310756, 262144, 0, -1245220, 327680, 0, -1179684, 327680, 0, -1114148, 327680, 1, -1048612, 327680, 1, -983076, 327680, 1, -917540, 262144, 0, -852004, 327680, 0, -786468, 327680, 1, -720932, 327680, 1, -655396, 327680, 0, -589860, 327680, 0, -524324, 262144, 1, -458788, 327680, 1, -393252, 327680, 0, -327716, 262144, 0, -262180, 262144, 1, -196644, 327680, 0, -131108, 262144, 1, -65572, 327680, 1, -36, 262144, 1, 65500, 327680, 0, 131036, 327680, 1, 196572, 262144, 1, 262108, 327680, 0, 327644, 327680, 0, 393180, 327680, 0, 458716, 327680, 0, -1638435, 262144, 0, -1572899, 262144, 1, -1507363, 327680, 0, -1441827, 327680, 1, -1376291, 327680, 0, -1310755, 262144, 0, -1245219, 327680, 1, -1179683, 262144, 0, -1114147, 262144, 1, -1048611, 327680, 1, -983075, 327680, 0, -917539, 327680, 1, -852003, 262144, 0, -786467, 262144, 0, -720931, 262144, 1, -655395, 327680, 1, -589859, 327680, 0, -524323, 262144, 0, -458787, 262144, 1, -393251, 262144, 1, -327715, 262144, 0, -262179, 262144, 0, -196643, 262144, 1, -131107, 327680, 0, -65571, 327680, 1, -35, 327680, 0, 65501, 262144, 0, 131037, 262144, 1, 196573, 262144, 1, 262109, 327680, 0, 327645, 262144, 1, 393181, 327680, 0, 458717, 327680, 1, -1638434, 262144, 1, -1572898, 327680, 0, -1507362, 262144, 0, -1441826, 327680, 0, -1376290, 327680, 0, -1310754, 262144, 0, -1245218, 262144, 1, -1179682, 327680, 0, -1114146, 327680, 1, -1048610, 327680, 0, -983074, 262144, 1, -917538, 327680, 1, -852002, 327680, 0, -786466, 327680, 0, -720930, 327680, 1, -655394, 327680, 0, -589858, 327680, 1, -524322, 327680, 1, -458786, 262144, 1, -393250, 327680, 0, -327714, 327680, 0, -262178, 262144, 0, -196642, 327680, 0, -131106, 327680, 1, -65570, 327680, 0, -34, 262144, 0, 65502, 262144, 1, 131038, 262144, 1, 196574, 262144, 1, 262110, 327680, 1, 327646, 262144, 0, 393182, 327680, 0, 458718, 327680, 1, -1638433, 262144, 1, -1572897, 327680, 1, -1507361, 327680, 0, -1441825, 262144, 1, -1376289, 262144, 0, -1310753, 262144, 0, -1245217, 262144, 0, -1179681, 262144, 1, -1114145, 262144, 1, -1048609, 262144, 0, -983073, 262144, 1, -917537, 327680, 1, -852001, 262144, 1, -786465, 327680, 1, -720929, 327680, 1, -655393, 262144, 1, -589857, 262144, 0, -524321, 262144, 0, -458785, 262144, 0, -393249, 327680, 1, -327713, 327680, 0, -262177, 262144, 1, -196641, 327680, 0, -131105, 327680, 1, -65569, 262144, 0, -33, 327680, 0, 65503, 262144, 0, 131039, 262144, 0, 196575, 262144, 1, 262111, 327680, 0, 327647, 327680, 0, 393183, 262144, 0, 458719, 327680, 1, -1638432, 262144, 1, -1572896, 262144, 0, -1507360, 327680, 0, -1441824, 327680, 1, -1376288, 262144, 1, -1310752, 262144, 1, -1245216, 327680, 0, -1179680, 262144, 0, -1114144, 262144, 1, -1048608, 262144, 0, -983072, 327680, 1, -917536, 327680, 1, -852000, 262144, 0, -786464, 262144, 1, -720928, 262144, 0, -655392, 327680, 0, -589856, 262144, 1, -524320, 262144, 0, -458784, 262144, 1, -393248, 262144, 0, -327712, 262144, 0, -262176, 262144, 1, -196640, 327680, 1, -131104, 262144, 1, -65568, 262144, 1, -32, 327680, 1, 65504, 262144, 1, 131040, 327680, 0, 196576, 262144, 1, 262112, 327680, 0, 327648, 262144, 1, 393184, 262144, 1, 458720, 327680, 1, -1638431, 262144, 1, -1572895, 262144, 1, -1507359, 262144, 0, -1441823, 327680, 1, -1376287, 262144, 0, -1310751, 327680, 1, -1245215, 327680, 1, -1179679, 327680, 0, -1114143, 262144, 0, -1048607, 327680, 0, -983071, 327680, 0, -917535, 327680, 0, -851999, 327680, 1, -786463, 262144, 0, -720927, 262144, 1, -655391, 327680, 1, -589855, 327680, 0, -524319, 262144, 0, -458783, 327680, 0, -393247, 327680, 0, -327711, 262144, 1, -262175, 262144, 1, -196639, 262144, 1, -131103, 262144, 0, -65567, 327680, 0, -31, 262144, 1, 65505, 327680, 0, 131041, 327680, 1, 196577, 262144, 1, 262113, 327680, 1, 327649, 327680, 0, 393185, 327680, 0, 458721, 262144, 0, -1638430, 262144, 0, -1572894, 327680, 0, -1507358, 327680, 0, -1441822, 262144, 1, -1376286, 262144, 0, -1310750, 262144, 0, -1245214, 327680, 1, -1179678, 327680, 0, -1114142, 327680, 1, -1048606, 327680, 0, -983070, 262144, 0, -917534, 262144, 0, -851998, 327680, 0, -786462, 262144, 1, -720926, 262144, 0, -655390, 327680, 0, -589854, 327680, 0, -524318, 262144, 1, -458782, 327680, 1, -393246, 327680, 1, -327710, 262144, 1, -262174, 327680, 0, -196638, 262144, 0, -131102, 262144, 1, -65566, 327680, 1, -30, 262144, 0, 65506, 262144, 1, 131042, 262144, 0, 196578, 262144, 0, 262114, 327680, 1, 327650, 327680, 0, 393186, 262144, 1, 458722, 327680, 1, -1638429, 262144, 1, -1572893, 262144, 1, -1507357, 327680, 1, -1441821, 327680, 1, -1376285, 262144, 1, -1310749, 262144, 0, -1245213, 327680, 1, -1179677, 262144, 1, -1114141, 327680, 1, -1048605, 262144, 1, -983069, 327680, 0, -917533, 262144, 1, -851997, 262144, 1, -786461, 262144, 0, -720925, 262144, 0, -655389, 262144, 0, -589853, 327680, 1, -524317, 262144, 0, -458781, 327680, 0, -393245, 327680, 0, -327709, 262144, 0, -262173, 327680, 0, -196637, 327680, 1, -131101, 327680, 1, -65565, 327680, 0, -29, 262144, 0, 65507, 327680, 1, 131043, 327680, 1, 196579, 327680, 0, 262115, 327680, 0, 327651, 327680, 1, 393187, 327680, 0, 458723, 262144, 0, -1638428, 262144, 0, -1572892, 262144, 0, -1507356, 262144, 1, -1441820, 262144, 0, -1376284, 327680, 1, -1310748, 327680, 0, -1245212, 262144, 1, -1179676, 262144, 1, -1114140, 262144, 0, -1048604, 262144, 0, -983068, 327680, 0, -917532, 327680, 1, -851996, 262144, 0, -786460, 262144, 0, -720924, 327680, 0, -655388, 262144, 1, -589852, 327680, 0, -524316, 262144, 1, -458780, 262144, 0, -393244, 262144, 0, -327708, 327680, 0, -262172, 327680, 0, -196636, 262144, 0, -131100, 327680, 1, -65564, 327680, 0, -28, 327680, 1, 65508, 327680, 1, 131044, 262144, 0, 196580, 262144, 0, 262116, 327680, 1, 327652, 262144, 0, 393188, 262144, 0, 458724, 262144, 1, -1638427, 262144, 1, -1572891, 327680, 0, -1507355, 262144, 1, -1441819, 262144, 0, -1376283, 327680, 0, -1310747, 327680, 0, -1245211, 262144, 0, -1179675, 262144, 0, -1114139, 327680, 1, -1048603, 262144, 0, -983067, 327680, 1, -917531, 327680, 0, -851995, 262144, 1, -786459, 262144, 0, -720923, 327680, 0, -655387, 327680, 1, -589851, 262144, 0, -524315, 262144, 0, -458779, 262144, 0, -393243, 262144, 0, -327707, 327680, 0, -262171, 327680, 0, -196635, 262144, 1, -131099, 262144, 0, -65563, 262144, 0, -27, 327680, 1, 65509, 327680, 0, 131045, 327680, 1, 196581, 327680, 0, 262117, 262144, 1, 327653, 327680, 1, 393189, 327680, 0, 458725, 262144, 1, -1638426, 262144, 0, -1572890, 327680, 0, -1507354, 262144, 0, -1441818, 327680, 0, -1376282, 262144, 0, -1310746, 327680, 1, -1245210, 262144, 1, -1179674, 327680, 1, -1114138, 327680, 0, -1048602, 327680, 0, -983066, 327680, 1, -917530, 262144, 1, -851994, 327680, 0, -786458, 327680, 1, -720922, 327680, 0, -655386, 327680, 0, -589850, 262144, 1, -524314, 262144, 1, -458778, 262144, 1, -393242, 262144, 1, -327706, 327680, 1, -262170, 262144, 0, -196634, 327680, 0, -131098, 327680, 1, -65562, 327680, 0, -26, 262144, 1, 65510, 262144, 0, 131046, 262144, 0, 196582, 327680, 1, 262118, 327680, 0, 327654, 327680, 0, 393190, 262144, 0, 458726, 327680, 1, -1638425, 262144, 1, -1572889, 262144, 0, -1507353, 327680, 0, -1441817, 262144, 0, -1376281, 327680, 1, -1310745, 262144, 0, -1245209, 327680, 0, -1179673, 262144, 1, -1114137, 327680, 0, -1048601, 262144, 1, -983065, 327680, 0, -917529, 327680, 1, -851993, 327680, 0, -786457, 327680, 1, -720921, 262144, 0, -655385, 327680, 1, -589849, 327680, 0, -524313, 262144, 0, -458777, 327680, 0, -393241, 262144, 0, -327705, 327680, 0, -262169, 262144, 0, -196633, 262144, 1, -131097, 327680, 1, -65561, 262144, 0, -25, 262144, 0, 65511, 262144, 0, 131047, 327680, 1, 196583, 262144, 1, 262119, 327680, 0, 327655, 262144, 0, 393191, 327680, 0, 458727, 262144, 0, -1638424, 327680, 1, -1572888, 327680, 1, -1507352, 327680, 0, -1441816, 327680, 0, -1376280, 262144, 0, -1310744, 327680, 1, -1245208, 327680, 1, -1179672, 327680, 1, -1114136, 327680, 1, -1048600, 327680, 1, -983064, 262144, 1, -917528, 262144, 1, -851992, 262144, 0, -786456, 262144, 0, -720920, 327680, 0, -655384, 262144, 0, -589848, 327680, 1, -524312, 262144, 1, -458776, 262144, 0, -393240, 262144, 0, -327704, 262144, 0, -262168, 262144, 1, -196632, 327680, 0, -131096, 327680, 0, -65560, 262144, 1, -24, 262144, 1, 65512, 327680, 0, 131048, 327680, 0, 196584, 327680, 0, 262120, 327680, 0, 327656, 262144, 1, -1638423, 327680, 0, -1572887, 262144, 0, -1507351, 327680, 1, -1441815, 327680, 0, -1376279, 262144, 1, -1310743, 262144, 1, -1245207, 262144, 0, -1179671, 262144, 1, -1114135, 262144, 0, -1048599, 327680, 1, -983063, 327680, 1, -917527, 327680, 1, -851991, 327680, 0, -786455, 262144, 1, -720919, 327680, 1, -655383, 262144, 0, -589847, 327680, 1, -524311, 327680, 0, -458775, 262144, 0, -393239, 327680, 1, -327703, 262144, 0, -262167, 327680, 0, -196631, 262144, 0, -131095, 327680, 0, -65559, 327680, 1, -23, 262144, 0, 65513, 327680, 0, 131049, 327680, 1, 196585, 262144, 1, 262121, 327680, 1, 327657, 262144, 1, -1638422, 262144, 0, -1572886, 327680, 0, -1507350, 262144, 1, -1441814, 262144, 0, -1376278, 327680, 1, -1310742, 262144, 1, -1245206, 262144, 1, -1179670, 262144, 1, -1114134, 262144, 1, -1048598, 327680, 1, -983062, 262144, 0, -917526, 327680, 1, -851990, 262144, 0, -786454, 262144, 0, -720918, 262144, 1, -655382, 262144, 1, -589846, 262144, 1, -524310, 327680, 0, -458774, 327680, 1, -393238, 327680, 1, -327702, 327680, 1, -262166, 262144, 0, -196630, 262144, 1, -131094, 327680, 1, -65558, 327680, 1, -22, 262144, 1, 65514, 327680, 0, 131050, 327680, 1, 196586, 327680, 0, 262122, 262144, 1, 327658, 262144, 1, -1638421, 327680, 0, -1572885, 327680, 1, -1507349, 262144, 0, -1441813, 327680, 0, -1376277, 262144, 0, -1310741, 327680, 1, -1245205, 327680, 1, -1179669, 327680, 1, -1114133, 327680, 0, -1048597, 327680, 0, -983061, 327680, 1, -393237, 262144, 0, -327701, 327680, 1, -262165, 327680, 1, -196629, 262144, 1, -131093, 327680, 0, -65557, 262144, 1, -21, 262144, 0, 65515, 327680, 0, 131051, 262144, 0, 196587, 327680, 0, 262123, 262144, 1, 327659, 327680, 0, -1638420, 262144, 0, -1572884, 262144, 0, -1507348, 327680, 0, -1441812, 262144, 0, -1376276, 262144, 1, -1310740, 327680, 1, -1245204, 262144, 0, -1179668, 327680, 1, -1114132, 327680, 0, -1048596, 327680, 0, -983060, 262144, 1, -393236, 327680, 1, -327700, 262144, 0, -262164, 327680, 0, -196628, 262144, 0, -131092, 327680, 0, -65556, 327680, 1, -20, 262144, 1, 65516, 327680, 0, 131052, 327680, 0, 196588, 327680, 0, 262124, 262144, 0, 327660, 262144, 0, -1638419, 327680, 0, -1572883, 262144, 0, -1507347, 327680, 0, -1441811, 327680, 1, -1376275, 262144, 0, -1310739, 262144, 0, -1245203, 327680, 1, -1179667, 327680, 1, -1114131, 262144, 0, -1048595, 327680, 1, -983059, 327680, 0, -393235, 262144, 1, -327699, 262144, 1, -262163, 262144, 0, -196627, 262144, 0, -131091, 327680, 0, -65555, 262144, 1, -19, 262144, 0, 65517, 327680, 0, 131053, 262144, 1, 196589, 262144, 1, 262125, 262144, 0, 327661, 327680, 1, -1638418, 327680, 0, -1572882, 327680, 0, -1507346, 327680, 1, -1441810, 262144, 1, -1376274, 262144, 0, -1310738, 262144, 0, -1245202, 327680, 0, -1179666, 262144, 0, -1114130, 327680, 1, -1048594, 262144, 1, -983058, 262144, 1, -393234, 327680, 1, -327698, 327680, 1, -262162, 262144, 0, -196626, 262144, 0, -131090, 327680, 1, -65554, 327680, 1, -18, 327680, 0, 65518, 262144, 1, 131054, 327680, 0, 196590, 262144, 1, 262126, 262144, 0, 327662, 327680, 0, -1638417, 262144, 0, -1572881, 327680, 1, -1507345, 327680, 1, -1441809, 327680, 1, -1376273, 262144, 0, -1310737, 327680, 0, -1245201, 327680, 0, -1179665, 262144, 1, -1114129, 262144, 1, -1048593, 327680, 0, -983057, 327680, 1, -1638416, 327680, 0, -1572880, 262144, 1, -1507344, 262144, 1, -1441808, 262144, 0, -1376272, 262144, 0, -1310736, 262144, 0, -1245200, 262144, 0, -1179664, 262144, 0, -1114128, 262144, 1, -1048592, 327680, 1, -983056, 262144, 0, -1638415, 262144, 1, -1572879, 327680, 1, -1507343, 327680, 1, -1441807, 262144, 0, -1376271, 262144, 1, -1310735, 262144, 1, -1245199, 262144, 0, -1179663, 262144, 1, -1114127, 262144, 1, -1048591, 327680, 1, -983055, 262144, 1, -1638414, 327680, 0, -1572878, 327680, 0, -1507342, 262144, 0, -1441806, 262144, 1, -1376270, 262144, 1, -1310734, 327680, 1, -1245198, 327680, 1, -1179662, 327680, 0, -1114126, 327680, 0, -1048590, 327680, 1, -983054, 327680, 1, -1638413, 327680, 0, -1572877, 262144, 1, -1507341, 327680, 1, -1441805, 327680, 0, -1376269, 262144, 1, -1310733, 262144, 0, -1245197, 262144, 0, -1179661, 262144, 0, -1114125, 262144, 1, -1048589, 262144, 0, -983053, 262144, 0, -1638412, 327680, 1, -1572876, 327680, 0, -1507340, 327680, 0, -1441804, 327680, 0, -1376268, 262144, 1, -1310732, 327680, 0, -1245196, 262144, 0, -1179660, 262144, 0, -1114124, 327680, 1, -1048588, 262144, 0, -983052, 262144, 0, -1769501, 327680, 0, -1703965, 327680, 0, -1769500, 327680, 1, -1703964, 262144, 1, -1769499, 327680, 0, -1703963, 262144, 1, -1769498, 262144, 0, -1703962, 262144, 1, -1769497, 262144, 1, -1703961, 327680, 0, -1769496, 262144, 1, -1703960, 327680, 1, -1769495, 262144, 1, -1703959, 262144, 1, -1769494, 327680, 0, -1703958, 327680, 0, -1769493, 327680, 1, -1703957, 327680, 0, -1769492, 327680, 0, -1703956, 327680, 0, -1769491, 327680, 1, -1703955, 262144, 1, -1769490, 262144, 1, -1703954, 262144, 1, -1769489, 262144, 1, -1703953, 327680, 1, -1769488, 262144, 0, -1703952, 327680, 0, -1769487, 327680, 0, -1703951, 262144, 1, -1769486, 262144, 1, -1703950, 327680, 0, -1769485, 262144, 0, -1703949, 327680, 1, -1769484, 327680, 1, -1703948, 262144, 1, -1769483, 262144, 1, -1703947, 327680, 1, -1638411, 262144, 1, -1572875, 262144, 0, -1507339, 327680, 1, -1441803, 262144, 1, -1376267, 327680, 0, -1310731, 327680, 1, -1245195, 262144, 0, -1179659, 262144, 1, -1114123, 327680, 1, -1048587, 262144, 1, -983051, 327680, 1, -1769482, 327680, 1, -1703946, 327680, 0, -1638410, 262144, 1, -1572874, 327680, 1, -1507338, 262144, 0, -1441802, 327680, 0, -1376266, 262144, 0, -1310730, 327680, 0, -1245194, 262144, 0, -1179658, 262144, 0, -1114122, 262144, 0, -1048586, 327680, 1, -983050, 262144, 1, -1769481, 262144, 0, -1703945, 262144, 0, -1638409, 262144, 1, -1572873, 262144, 1, -1507337, 327680, 1, -1441801, 327680, 1, -1376265, 327680, 0, -1310729, 327680, 1, -1245193, 327680, 1, -1179657, 262144, 1, -1114121, 327680, 1, -1048585, 262144, 0, -983049, 327680, 0, -1769480, 262144, 1, -1703944, 327680, 0, -1638408, 262144, 0, -1572872, 262144, 1, -1507336, 327680, 1, -1441800, 262144, 0, -1376264, 327680, 1, -1310728, 262144, 1, -1245192, 327680, 0, -1179656, 327680, 1, -1114120, 262144, 0, -1048584, 327680, 1, -983048, 327680, 0, -1769479, 262144, 0, -1703943, 262144, 0, -1638407, 262144, 1, -1572871, 262144, 0, -1507335, 327680, 1, -1441799, 262144, 1, -1376263, 327680, 1, -1310727, 262144, 0, -1245191, 327680, 1, -1179655, 262144, 1, -1114119, 327680, 0, -1048583, 262144, 0, -983047, 327680, 1, -1769478, 262144, 0, -1703942, 327680, 0, -1638406, 262144, 1, -1572870, 262144, 1, -1507334, 327680, 0, -1441798, 262144, 1, -1376262, 262144, 1, -1310726, 327680, 1, -1245190, 262144, 0, -1179654, 262144, 1, -1114118, 262144, 1, -1048582, 327680, 1, -983046, 262144, 1, -1769477, 262144, 0, -1703941, 327680, 1, -1638405, 262144, 0, -1572869, 327680, 0, -1507333, 327680, 0, -1441797, 262144, 1, -1376261, 327680, 0, -1310725, 327680, 0, -1245189, 327680, 0, -1179653, 327680, 1, -1114117, 262144, 1, -1048581, 262144, 1, -983045, 262144, 0, -1769476, 327680, 1, -1703940, 327680, 1, -1638404, 327680, 0, -1572868, 262144, 0, -1507332, 262144, 1, -1441796, 262144, 0, -1376260, 262144, 0, -1310724, 327680, 1, -1245188, 327680, 1, -1179652, 262144, 0, -1114116, 262144, 0, -1048580, 327680, 1, -983044, 262144, 0, -1769475, 327680, 1, -1703939, 262144, 1, -1638403, 262144, 1, -1572867, 327680, 0, -1507331, 262144, 0, -1441795, 262144, 0, -1376259, 327680, 1, -1310723, 262144, 1, -1245187, 262144, 1, -1179651, 327680, 0, -1114115, 262144, 1, -1048579, 327680, 1, -983043, 327680, 0, -1769474, 262144, 0, -1703938, 327680, 0, -1638402, 262144, 0, -1572866, 327680, 1, -1507330, 262144, 0, -1441794, 262144, 1, -1376258, 262144, 1, -1310722, 262144, 0, -1245186, 327680, 0, -1179650, 262144, 0, -1114114, 327680, 0, -1048578, 262144, 1, -983042, 327680, 0, -1769473, 262144, 0, -1703937, 327680, 1, -1638401, 327680, 0, -1572865, 327680, 1, -1507329, 262144, 0, -1441793, 327680, 1, -1376257, 262144, 1, -1310721, 262144, 1, -1245185, 327680, 0, -1179649, 327680, 0, -1114113, 262144, 0, -1048577, 262144, 1, -983041, 327680, 1, -1835008, 327680, 0, -1769472, 262144, 1, -1703936, 327680, 0, -1638400, 262144, 1, -1572864, 262144, 1, -1507328, 327680, 1, -1441792, 327680, 0, -1376256, 327680, 0, -1310720, 327680, 1, -1245184, 262144, 1, -1179648, 327680, 1, -1114112, 327680, 0, -1048576, 262144, 1, -1835007, 327680, 1, -1769471, 327680, 0, -1703935, 327680, 1, -1638399, 327680, 1, -1572863, 327680, 1, -1507327, 262144, 1, -1441791, 262144, 0, -1376255, 262144, 0, -1310719, 262144, 0, -1245183, 327680, 0, -1179647, 262144, 0, -1114111, 262144, 0, -1048575, 262144, 0, -1835006, 327680, 1, -1769470, 327680, 0, -1703934, 327680, 0, -1638398, 262144, 1, -1572862, 262144, 0, -1507326, 327680, 1, -1441790, 262144, 0, -1376254, 327680, 0, -1310718, 327680, 0, -1245182, 327680, 1, -1179646, 327680, 1, -1114110, 327680, 0, -1048574, 262144, 0, -1835005, 262144, 0, -1769469, 262144, 0, -1703933, 327680, 0, -1638397, 262144, 1, -1572861, 262144, 1, -1507325, 327680, 0, -1441789, 262144, 1, -1376253, 262144, 1, -1310717, 327680, 1, -1245181, 262144, 1, -1179645, 327680, 1, -1114109, 262144, 1, -1048573, 262144, 0, -1835004, 327680, 0, -1769468, 262144, 1, -1703932, 327680, 1, -1638396, 327680, 1, -1572860, 327680, 0, -1507324, 262144, 1, -1441788, 327680, 0, -1376252, 262144, 1, -1310716, 262144, 1, -1245180, 262144, 0, -1179644, 327680, 1, -1114108, 262144, 0, -1048572, 327680, 0, -1835003, 262144, 1, -1769467, 262144, 1, -1703931, 327680, 0, -1638395, 327680, 0, -1572859, 327680, 0, -1507323, 327680, 0, -1441787, 262144, 0, -1376251, 327680, 1, -1310715, 262144, 1, -1245179, 327680, 0, -1179643, 262144, 0, -1114107, 327680, 0, -1048571, 262144, 0, -1835002, 327680, 1, -1769466, 327680, 0, -1703930, 327680, 0, -1638394, 262144, 1, -1572858, 327680, 1, -1507322, 262144, 1, -1441786, 262144, 1, -1376250, 262144, 1, -1310714, 327680, 1, -1245178, 327680, 1, -1179642, 262144, 0, -1114106, 262144, 1, -1048570, 327680, 0, -1835001, 327680, 1, -1769465, 327680, 0, -1703929, 327680, 1, -1638393, 262144, 0, -1572857, 327680, 1, -1507321, 262144, 1, -1441785, 327680, 1, -1376249, 327680, 1, -1310713, 327680, 0, -1245177, 327680, 0, -1179641, 262144, 0, -1114105, 262144, 1, -1048569, 327680, 1, -1835000, 327680, 0, -1769464, 262144, 1, -1703928, 327680, 1, -1638392, 262144, 1, -1572856, 262144, 1, -1507320, 262144, 1, -1441784, 327680, 1, -1376248, 262144, 0, -1310712, 262144, 1, -1245176, 262144, 1, -1179640, 262144, 0, -1114104, 262144, 1, -1048568, 262144, 1, -1834999, 262144, 1, -1769463, 262144, 1, -1703927, 327680, 1, -1638391, 262144, 1, -1572855, 327680, 1, -1507319, 262144, 1, -1441783, 262144, 0, -1376247, 327680, 1, -1310711, 262144, 0, -1245175, 327680, 0, -1179639, 327680, 1, -1114103, 327680, 1, -1048567, 327680, 1, -1834998, 327680, 1, -1769462, 262144, 1, -1703926, 262144, 0, -1638390, 327680, 1, -1572854, 262144, 0, -1507318, 262144, 0, -1441782, 262144, 0, -1376246, 327680, 1, -1310710, 327680, 0, -1245174, 262144, 0, -1179638, 327680, 0, -1114102, 262144, 1, -1048566, 262144, 1, -1834997, 262144, 0, -1769461, 327680, 0, -1703925, 262144, 1, -1638389, 327680, 0, -1572853, 262144, 1, -1507317, 262144, 1, -1441781, 262144, 0, -1376245, 262144, 0, -1310709, 262144, 1, -1245173, 327680, 1, -1179637, 327680, 1, -1114101, 327680, 0, -1048565, 262144, 0, -1834996, 327680, 1, -1769460, 262144, 0, -1703924, 327680, 0, -1638388, 262144, 1, -1572852, 327680, 0, -1507316, 262144, 0, -1441780, 327680, 1, -1376244, 327680, 0, -1310708, 262144, 1, -1245172, 262144, 0, -1179636, 262144, 0, -1114100, 327680, 0, -1048564, 327680, 0, -1834995, 262144, 1, -1769459, 327680, 1, -1703923, 327680, 0, -1638387, 262144, 1, -1572851, 327680, 0, -1507315, 327680, 1, -1441779, 262144, 0, -1376243, 262144, 1, -1310707, 262144, 0, -1245171, 327680, 0, -1179635, 327680, 0, -1114099, 262144, 1, -1048563, 262144, 0, -1834994, 262144, 1, -1769458, 327680, 1, -1703922, 327680, 1, -1638386, 262144, 0, -1572850, 262144, 0, -1507314, 327680, 0, -1441778, 262144, 0, -1376242, 327680, 0, -1310706, 262144, 1, -1245170, 262144, 1, -1179634, 327680, 1, -1114098, 327680, 0, -1048562, 262144, 1, -1834993, 262144, 0, -1769457, 262144, 1, -1703921, 327680, 1, -1638385, 262144, 1, -1572849, 262144, 1, -1507313, 262144, 1, -1441777, 262144, 1, -1376241, 327680, 0, -1310705, 262144, 0, -1245169, 327680, 0, -1179633, 327680, 0, -1114097, 262144, 0, -1048561, 262144, 0, -1834992, 262144, 0, -1769456, 262144, 0, -1703920, 262144, 1, -1638384, 327680, 0, -1572848, 262144, 0, -1507312, 327680, 0, -1441776, 262144, 0, -1376240, 262144, 1, -1310704, 327680, 0, -1245168, 327680, 1, -1179632, 327680, 1, -1114096, 262144, 1, -1048560, 327680, 1, -1834991, 327680, 1, -1769455, 327680, 1, -1703919, 327680, 1, -1638383, 327680, 0, -1572847, 327680, 1, -1507311, 262144, 0, -1441775, 327680, 1, -1376239, 262144, 1, -1310703, 327680, 0, -1245167, 327680, 1, -1179631, 327680, 0, -1114095, 262144, 0, -1048559, 262144, 1, -983023, 327680, 1, -917487, 262144, 1, -851951, 327680, 1, -786415, 262144, 0, -720879, 327680, 1, -655343, 262144, 1, -589807, 262144, 1, -524271, 262144, 1, -458735, 327680, 0, -393199, 262144, 0, -1834990, 262144, 1, -1769454, 327680, 1, -1703918, 327680, 1, -1638382, 327680, 0, -1572846, 327680, 0, -1507310, 262144, 1, -1441774, 262144, 0, -1376238, 327680, 1, -1310702, 262144, 1, -1245166, 262144, 1, -1179630, 327680, 0, -1114094, 327680, 1, -1048558, 262144, 1, -983022, 327680, 1, -917486, 327680, 0, -851950, 327680, 1, -786414, 327680, 0, -720878, 327680, 0, -655342, 327680, 1, -589806, 327680, 0, -524270, 262144, 1, -458734, 327680, 0, -393198, 327680, 0, -1834989, 327680, 0, -1769453, 327680, 0, -1703917, 327680, 1, -1638381, 327680, 1, -1572845, 262144, 1, -1507309, 327680, 0, -1441773, 327680, 0, -1376237, 327680, 0, -1310701, 327680, 1, -1245165, 327680, 1, -1179629, 262144, 0, -1114093, 262144, 1, -1048557, 327680, 0, -983021, 262144, 1, -917485, 327680, 1, -851949, 262144, 0, -786413, 327680, 0, -720877, 262144, 0, -655341, 262144, 1, -589805, 327680, 1, -524269, 262144, 1, -458733, 327680, 0, -393197, 262144, 1, -1834988, 327680, 0, -1769452, 262144, 1, -1703916, 327680, 1, -1638380, 327680, 0, -1572844, 262144, 1, -1507308, 327680, 1, -1441772, 262144, 0, -1376236, 327680, 0, -1310700, 262144, 1, -1245164, 262144, 0, -1179628, 262144, 0, -1114092, 327680, 1, -1048556, 262144, 1, -983020, 327680, 0, -917484, 327680, 0, -851948, 327680, 1, -786412, 262144, 0, -720876, 327680, 1, -655340, 262144, 1, -589804, 262144, 0, -524268, 327680, 0, -458732, 262144, 1, -393196, 262144, 0, -1834987, 327680, 1, -1769451, 327680, 1, -1703915, 327680, 0, -1638379, 262144, 0, -1572843, 327680, 1, -1507307, 327680, 1, -1441771, 262144, 0, -1376235, 327680, 1, -1310699, 262144, 0, -1245163, 262144, 0, -1179627, 327680, 1, -1114091, 262144, 0, -1048555, 327680, 0, -983019, 262144, 1, -917483, 262144, 1, -851947, 327680, 0, -786411, 327680, 0, -720875, 327680, 0, -655339, 327680, 1, -589803, 327680, 0, -524267, 327680, 0, -458731, 327680, 1, -393195, 327680, 1, -1834986, 327680, 1, -1769450, 327680, 1, -1703914, 327680, 1, -1638378, 327680, 0, -1572842, 262144, 1, -1507306, 327680, 1, -1441770, 327680, 0, -1376234, 327680, 1, -1310698, 262144, 1, -1245162, 327680, 1, -1179626, 262144, 0, -1114090, 327680, 0, -1048554, 262144, 0, -983018, 327680, 0, -917482, 262144, 1, -851946, 327680, 1, -786410, 327680, 0, -720874, 262144, 0, -655338, 262144, 1, -589802, 262144, 1, -524266, 327680, 1, -458730, 262144, 1, -393194, 262144, 1, -1834985, 262144, 0, -1769449, 262144, 0, -1703913, 327680, 0, -1638377, 262144, 0, -1572841, 262144, 1, -1507305, 262144, 1, -1441769, 262144, 0, -1376233, 262144, 0, -1310697, 327680, 0, -1245161, 262144, 1, -1179625, 262144, 0, -1114089, 262144, 1, -1048553, 262144, 1, -983017, 262144, 1, -917481, 327680, 0, -851945, 262144, 0, -786409, 327680, 1, -720873, 327680, 0, -655337, 262144, 0, -589801, 327680, 0, -524265, 327680, 0, -458729, 327680, 0, -393193, 262144, 1, -1834984, 262144, 1, -1769448, 327680, 0, -1703912, 262144, 0, -1638376, 327680, 0, -1572840, 327680, 0, -1507304, 327680, 0, -1441768, 262144, 1, -1376232, 262144, 1, -1310696, 327680, 0, -1245160, 327680, 1, -1179624, 327680, 1, -1114088, 262144, 1, -1048552, 262144, 0, -983016, 327680, 1, -917480, 262144, 1, -851944, 327680, 0, -786408, 327680, 0, -720872, 327680, 0, -655336, 327680, 0, -589800, 262144, 1, -524264, 262144, 1, -458728, 327680, 1, -393192, 262144, 0, -1834983, 262144, 0, -1769447, 327680, 1, -1703911, 262144, 0, -1638375, 327680, 1, -1572839, 327680, 1, -1507303, 327680, 0, -1441767, 262144, 1, -1376231, 327680, 0, -1310695, 262144, 0, -1245159, 327680, 0, -1179623, 262144, 0, -1114087, 327680, 0, -1048551, 327680, 1, -983015, 262144, 1, -917479, 327680, 0, -851943, 262144, 1, -786407, 327680, 0, -720871, 262144, 1, -655335, 327680, 0, -589799, 262144, 1, -524263, 327680, 1, -458727, 262144, 1, -393191, 327680, 0, -1834982, 262144, 1, -1769446, 327680, 1, -1703910, 262144, 1, -1638374, 327680, 1, -1572838, 262144, 0, -1507302, 327680, 1, -1441766, 262144, 0, -1376230, 262144, 1, -1310694, 262144, 0, -1245158, 327680, 0, -1179622, 327680, 1, -1114086, 262144, 1, -1048550, 262144, 1, -983014, 327680, 0, -917478, 262144, 1, -851942, 327680, 0, -786406, 262144, 1, -720870, 327680, 0, -655334, 327680, 0, -589798, 262144, 1, -524262, 327680, 0, -458726, 262144, 0, -393190, 262144, 0, -1834981, 262144, 0, -1769445, 327680, 1, -1703909, 262144, 0, -1638373, 262144, 1, -1572837, 262144, 0, -1507301, 327680, 0, -1441765, 327680, 0, -1376229, 327680, 1, -1310693, 262144, 0, -1245157, 262144, 0, -1179621, 327680, 1, -1114085, 262144, 0, -1048549, 262144, 1, -983013, 327680, 1, -917477, 262144, 0, -851941, 262144, 0, -786405, 262144, 0, -720869, 327680, 1, -655333, 262144, 0, -589797, 262144, 1, -524261, 327680, 0, -458725, 327680, 0, -393189, 327680, 1, -1834980, 327680, 1, -1769444, 327680, 1, -1703908, 327680, 0, -1638372, 327680, 1, -1572836, 262144, 1, -1507300, 327680, 1, -1441764, 262144, 1, -1376228, 262144, 1, -1310692, 262144, 1, -1245156, 262144, 1, -1179620, 262144, 0, -1114084, 262144, 1, -1048548, 327680, 1, -983012, 327680, 0, -917476, 262144, 1, -851940, 262144, 0, -786404, 262144, 0, -720868, 327680, 0, -655332, 327680, 1, -589796, 327680, 1, -524260, 262144, 1, -458724, 262144, 1, -393188, 327680, 0, -1834979, 327680, 0, -1769443, 262144, 1, -1703907, 262144, 0, -1638371, 327680, 1, -1572835, 327680, 0, -1507299, 327680, 1, -1441763, 327680, 1, -1376227, 262144, 0, -1310691, 262144, 0, -1245155, 262144, 1, -1179619, 262144, 1, -1114083, 262144, 1, -1048547, 262144, 1, -983011, 262144, 1, -917475, 262144, 1, -851939, 262144, 0, -786403, 327680, 1, -720867, 327680, 1, -655331, 327680, 1, -589795, 327680, 0, -524259, 262144, 1, -458723, 327680, 0, -393187, 327680, 1, -1834978, 262144, 0, -1769442, 327680, 1, -1703906, 262144, 1, -1638370, 327680, 1, -1572834, 327680, 1, -1507298, 327680, 1, -1441762, 262144, 0, -1376226, 327680, 0, -1310690, 327680, 0, -1245154, 327680, 0, -1179618, 262144, 0, -1114082, 327680, 0, -1048546, 327680, 0, -983010, 262144, 0, -917474, 262144, 0, -851938, 327680, 0, -786402, 262144, 0, -720866, 327680, 1, -655330, 327680, 1, -589794, 327680, 1, -524258, 262144, 1, -458722, 327680, 0, -393186, 262144, 1, -262129, 327680, 1, -196593, 327680, 0, -131057, 262144, 1, -65521, 327680, 0, 15, 327680, 0, 65551, 262144, 0, 131087, 262144, 1, 196623, 262144, 0, 262159, 262144, 1, -262128, 262144, 1, -196592, 262144, 1, -131056, 262144, 0, -65520, 262144, 1, 16, 262144, 1, 65552, 327680, 0, 131088, 262144, 1, 196624, 262144, 1, 262160, 262144, 1, -327663, 262144, 0, -262127, 327680, 0, -196591, 327680, 1, -131055, 327680, 0, -65519, 327680, 0, 17, 327680, 0, 65553, 262144, 1, 131089, 262144, 0, 196625, 327680, 1, 262161, 262144, 0, -327662, 262144, 1, -262126, 262144, 1, -196590, 327680, 1, -131054, 262144, 1, -65518, 262144, 1, 18, 262144, 0, 65554, 262144, 0, 131090, 327680, 1, 196626, 262144, 1, 262162, 262144, 1, -327661, 262144, 1, -262125, 327680, 0, -196589, 262144, 0, -131053, 327680, 0, -65517, 262144, 1, 19, 327680, 0, 65555, 262144, 1, 131091, 262144, 0, 196627, 262144, 0, 262163, 262144, 1, -327660, 327680, 1, -262124, 327680, 1, -196588, 262144, 0, -131052, 327680, 1, -65516, 327680, 1, 20, 262144, 1, 65556, 262144, 0, 131092, 262144, 0, 196628, 327680, 0, 262164, 327680, 0, -327659, 262144, 1, -262123, 262144, 0, -196587, 327680, 1, -131051, 327680, 1, -65515, 262144, 0, 21, 262144, 0, 65557, 262144, 0, 131093, 327680, 0, 196629, 327680, 1, 262165, 262144, 0, -327658, 327680, 1, -262122, 327680, 0, -196586, 327680, 1, -131050, 327680, 1, -65514, 327680, 0, 22, 262144, 0, 65558, 262144, 0, 131094, 262144, 0, 196630, 327680, 0, 262166, 262144, 0, -327657, 262144, 1, -262121, 327680, 0, -196585, 262144, 0, -131049, 262144, 0, -65513, 262144, 1, 23, 327680, 1, 65559, 262144, 0, 131095, 327680, 1, 196631, 327680, 0, 262167, 327680, 0, -327656, 262144, 0, -262120, 262144, 1, -196584, 262144, 0, -131048, 327680, 0, -65512, 327680, 0, 24, 262144, 1, 65560, 262144, 1, 131096, 327680, 1, 196632, 327680, 1, 262168, 262144, 1, 327704, 262144, 0, 393240, 262144, 0, 458776, 262144, 1, 524312, 327680, 0, 589848, 262144, 0, 655384, 262144, 0, 720920, 327680, 1, 786456, 327680, 1, -327655, 262144, 1, -262119, 327680, 0, -196583, 327680, 0, -131047, 262144, 0, -65511, 262144, 1, 25, 262144, 0, 65561, 327680, 0, 131097, 327680, 0, 196633, 262144, 1, 262169, 327680, 1, 327705, 262144, 0, 393241, 327680, 0, 458777, 327680, 0, 524313, 262144, 0, 589849, 262144, 1, 655385, 262144, 0, 720921, 262144, 0, 786457, 262144, 0, -327654, 327680, 1, -262118, 327680, 0, -196582, 327680, 1, -131046, 262144, 0, -65510, 262144, 0, 26, 327680, 0, 65562, 262144, 1, 131098, 262144, 0, 196634, 262144, 1, 262170, 327680, 1, 327706, 327680, 1, 393242, 262144, 1, 458778, 327680, 0, 524314, 327680, 1, 589850, 262144, 1, 655386, 327680, 0, 720922, 262144, 1, 786458, 327680, 0, -327653, 262144, 0, -262117, 327680, 0, -196581, 262144, 1, -131045, 327680, 1, -65509, 327680, 0, 27, 327680, 0, 65563, 327680, 1, 131099, 262144, 1, 196635, 262144, 1, 262171, 327680, 1, 327707, 262144, 0, 393243, 327680, 0, 458779, 327680, 0, 524315, 327680, 0, 589851, 262144, 1, 655387, 327680, 0, 720923, 327680, 1, 786459, 327680, 1, -327652, 262144, 0, -262116, 262144, 1, -196580, 262144, 0, -131044, 327680, 0, -65508, 262144, 1, 28, 262144, 1, 65564, 327680, 1, 131100, 327680, 1, 196636, 327680, 0, 262172, 327680, 1, 327708, 262144, 1, 393244, 327680, 0, 458780, 262144, 1, 524316, 262144, 1, 589852, 327680, 0, 655388, 327680, 1, 720924, 262144, 0, 786460, 262144, 0, -327651, 262144, 1, -262115, 262144, 1, -196579, 262144, 1, -131043, 262144, 0, -65507, 327680, 0, 29, 262144, 1, 65565, 327680, 1, 131101, 327680, 0, 196637, 262144, 1, 262173, 262144, 1, 327709, 262144, 0, 393245, 327680, 1, 458781, 327680, 1, 524317, 262144, 1, 589853, 327680, 1, 655389, 262144, 1, 720925, 262144, 0, 786461, 327680, 0, -327650, 327680, 1, -262114, 262144, 1, -196578, 262144, 0, -131042, 262144, 1, -65506, 327680, 0, 30, 262144, 1, 65566, 262144, 1, 131102, 262144, 1, 196638, 262144, 1, 262174, 262144, 0, 327710, 262144, 1, 393246, 327680, 1, 458782, 262144, 0, 524318, 262144, 1, 589854, 327680, 1, 655390, 262144, 0, 720926, 327680, 1, 786462, 262144, 0, -1638369, 262144, 1, -1572833, 327680, 0, -1507297, 327680, 1, -1441761, 327680, 0, -1376225, 262144, 0, -1310689, 327680, 1, -1245153, 327680, 0, -1179617, 327680, 0, -1114081, 327680, 0, -1048545, 327680, 1, -983009, 327680, 0, -917473, 262144, 1, -851937, 327680, 0, -786401, 327680, 1, -720865, 262144, 1, -655329, 327680, 0, -589793, 262144, 0, -524257, 327680, 0, -458721, 262144, 0, -393185, 327680, 1, -327649, 327680, 0, -262113, 327680, 1, -196577, 262144, 1, -131041, 327680, 1, -65505, 327680, 1, 31, 262144, 0, 65567, 262144, 1, 131103, 327680, 1, 196639, 327680, 1, 262175, 327680, 1, 327711, 327680, 0, 393247, 327680, 0, 458783, 327680, 1, 524319, 262144, 1, 589855, 327680, 1, 655391, 327680, 0, 720927, 327680, 1, 786463, 327680, 0, -1638368, 327680, 0, -1572832, 262144, 0, -1507296, 262144, 0, -1441760, 327680, 1, -1376224, 327680, 1, -1310688, 327680, 1, -1245152, 327680, 0, -1179616, 262144, 1, -1114080, 262144, 0, -1048544, 262144, 0, -983008, 327680, 0, -917472, 327680, 1, -851936, 262144, 1, -786400, 327680, 1, -720864, 327680, 1, -655328, 262144, 1, -589792, 262144, 1, -524256, 327680, 0, -458720, 327680, 0, -393184, 262144, 1, -327648, 262144, 0, -262112, 262144, 0, -196576, 262144, 1, -131040, 327680, 0, -65504, 327680, 1, 32, 262144, 0, 65568, 262144, 1, 131104, 262144, 0, 196640, 327680, 0, 262176, 327680, 1, 327712, 262144, 0, 393248, 262144, 1, 458784, 262144, 0, 524320, 262144, 0, 589856, 262144, 1, 655392, 327680, 0, 720928, 262144, 0, 786464, 262144, 1, 524247, 327680, 1, 589783, 327680, 1, 655319, 327680, 1, 720855, 262144, 0, 786391, 327680, 0, 851927, 262144, 0, 917463, 327680, 0, 982999, 262144, 1, 1048535, 327680, 0, 1114071, 327680, 0, 1179607, 262144, 0, 1245143, 262144, 1, 1310679, 262144, 0, 1376215, 262144, 1, 1441751, 262144, 0, 524248, 262144, 0, 589784, 262144, 1, 655320, 262144, 0, 720856, 262144, 1, 786392, 262144, 0, 851928, 262144, 0, 917464, 327680, 1, 983000, 327680, 0, 1048536, 262144, 1, 1114072, 327680, 1, 1179608, 327680, 0, 1245144, 262144, 1, 1310680, 262144, 1, 1376216, 327680, 1, 1441752, 262144, 1, 524249, 327680, 0, 589785, 262144, 0, 655321, 327680, 0, 720857, 262144, 1, 786393, 262144, 0, 851929, 327680, 0, 917465, 327680, 1, 983001, 327680, 1, 1048537, 327680, 0, 1114073, 262144, 0, 1179609, 262144, 0, 1245145, 327680, 0, 1310681, 327680, 1, 1376217, 327680, 1, 1441753, 327680, 0, 524250, 262144, 0, 589786, 262144, 1, 655322, 327680, 1, 720858, 262144, 0, 786394, 327680, 0, 851930, 327680, 1, 917466, 262144, 1, 983002, 262144, 0, 1048538, 262144, 0, 1114074, 327680, 1, 1179610, 327680, 1, 1245146, 262144, 1, 1310682, 262144, 1, 1376218, 262144, 1, 1441754, 327680, 1, 524251, 327680, 0, 589787, 262144, 1, 655323, 327680, 0, 720859, 327680, 0, 786395, 327680, 0, 851931, 327680, 0, 917467, 327680, 0, 983003, 327680, 1, 1048539, 262144, 0, 1114075, 327680, 1, 1179611, 262144, 0, 1245147, 262144, 1, 1310683, 327680, 0, 1376219, 262144, 1, 1441755, 262144, 0, 524252, 262144, 0, 589788, 262144, 0, 655324, 327680, 0, 720860, 262144, 1, 786396, 327680, 0, 851932, 262144, 1, 917468, 262144, 0, 983004, 262144, 1, 1048540, 262144, 0, 1114076, 327680, 0, 1179612, 327680, 0, 1245148, 262144, 1, 1310684, 327680, 1, 1376220, 262144, 0, 1441756, 262144, 1, 524253, 327680, 0, 589789, 327680, 1, 655325, 327680, 0, 720861, 327680, 1, 786397, 262144, 1, 851933, 327680, 0, 917469, 327680, 0, 983005, 262144, 0, 1048541, 327680, 1, 1114077, 262144, 1, 1179613, 327680, 1, 1245149, 262144, 1, 1310685, 327680, 1, 1376221, 262144, 0, 1441757, 262144, 0, 524254, 327680, 0, 589790, 327680, 1, 655326, 262144, 1, 720862, 327680, 0, 786398, 262144, 0, 851934, 262144, 0, 917470, 327680, 1, 983006, 327680, 0, 1048542, 262144, 0, 1114078, 327680, 1, 1179614, 327680, 1, 1245150, 327680, 1, 1310686, 327680, 1, 1376222, 262144, 1, 1441758, 262144, 0, 524255, 327680, 1, 589791, 327680, 1, 655327, 327680, 1, 720863, 262144, 1, 786399, 262144, 1, 851935, 327680, 1, 917471, 327680, 0, 983007, 327680, 1, 1048543, 262144, 1, 1114079, 262144, 1, 1179615, 262144, 1, 1245151, 262144, 0, 1310687, 327680, 1, 1376223, 262144, 0, 1441759, 262144, 1, 524256, 262144, 1, 589792, 327680, 0, 655328, 262144, 1, 720864, 327680, 0, 786400, 262144, 1, 851936, 327680, 1, 917472, 262144, 0, 983008, 327680, 1, 1048544, 262144, 1, 1114080, 327680, 1, 1179616, 327680, 0, 1245152, 262144, 0, 1310688, 262144, 1, 1376224, 262144, 0, 1441760, 327680, 0, 524257, 262144, 0, 589793, 327680, 1, 655329, 262144, 0, 720865, 327680, 1, 786401, 327680, 0, 851937, 327680, 1, 917473, 262144, 0, 983009, 327680, 1, 1048545, 327680, 0, 1114081, 262144, 1, 1179617, 262144, 0, 1245153, 327680, 1, 1310689, 327680, 1, 1376225, 262144, 1, 1441761, 262144, 0, 524258, 327680, 1, 589794, 327680, 1, 655330, 327680, 0, 720866, 327680, 0, 786402, 327680, 0, 851938, 327680, 1, 917474, 262144, 0, 983010, 262144, 0, 1048546, 327680, 1, 1114082, 262144, 1, 1179618, 262144, 0, 1245154, 327680, 1, 1310690, 327680, 0, 1376226, 327680, 0, 1441762, 262144, 0, 524259, 327680, 0, 589795, 262144, 1, 655331, 327680, 0, 720867, 262144, 1, 786403, 262144, 0, 851939, 327680, 1, 917475, 262144, 0, 983011, 327680, 1, 1048547, 262144, 1, 1114083, 327680, 0, 1179619, 327680, 0, 1245155, 262144, 1, 1310691, 262144, 0, 1376227, 327680, 0, 1441763, 262144, 1, 524260, 327680, 1, 589796, 262144, 1, 655332, 262144, 1, 720868, 327680, 0, 786404, 262144, 1, 851940, 327680, 0, 917476, 327680, 1, 983012, 327680, 0, 1048548, 262144, 0, 1114084, 262144, 1, 1179620, 327680, 0, 1245156, 327680, 0, 1310692, 327680, 0, 1376228, 327680, 0, 1441764, 327680, 1, 524261, 327680, 0, 589797, 327680, 0, 655333, 262144, 0, 720869, 327680, 0, 786405, 327680, 0, 851941, 262144, 1, 917477, 327680, 0, 983013, 262144, 1, 1048549, 262144, 0, 1114085, 327680, 1, 1179621, 262144, 1, 1245157, 327680, 1, 1310693, 262144, 0, 1376229, 327680, 1, 1441765, 327680, 0, 524262, 327680, 1, 589798, 262144, 0, 655334, 262144, 1, 720870, 327680, 0, 786406, 327680, 1, 851942, 327680, 0, 917478, 327680, 0, 983014, 327680, 0, 1048550, 327680, 0, 1114086, 262144, 0, 1179622, 262144, 1, 1245158, 262144, 0, 1310694, 327680, 0, 1376230, 327680, 0, 1441766, 327680, 1, 524263, 327680, 1, 589799, 262144, 0, 655335, 262144, 1, 720871, 262144, 1, 786407, 262144, 1, 851943, 262144, 0, 917479, 327680, 0, 983015, 327680, 0, 1048551, 262144, 0, 1114087, 327680, 0, 1179623, 262144, 0, 1245159, 262144, 1, 1310695, 327680, 0, 1376231, 262144, 1, 1441767, 262144, 1, 1310696, 327680, 0, 1376232, 262144, 1, 1441768, 262144, 1, 1310697, 327680, 1, 1376233, 262144, 1, 1441769, 262144, 1, 1310698, 262144, 1, 1376234, 327680, 1, 1441770, 327680, 1, 1310699, 327680, 0, 1376235, 327680, 0, 1441771, 327680, 1, 1310700, 262144, 1, 1376236, 262144, 0, 1441772, 327680, 1, 1310701, 262144, 0, 1376237, 327680, 0, 1441773, 262144, 1, 1245203, 327680, 0, 1310739, 262144, 1, 1376275, 262144, 1, 1441811, 327680, 0, 1507347, 262144, 1, 1245204, 327680, 1, 1310740, 262144, 0, 1376276, 262144, 0, 1441812, 327680, 1, 1507348, 327680, 1, 1245205, 327680, 1, 1310741, 262144, 0, 1376277, 327680, 1, 1441813, 262144, 1, 1507349, 327680, 1, 1245206, 327680, 1, 1310742, 327680, 0, 1376278, 262144, 0, 1441814, 327680, 0, 1507350, 327680, 0, 1245207, 262144, 1, 1310743, 327680, 1, 1376279, 327680, 1, 1441815, 327680, 1, 1507351, 327680, 0, 851992, 327680, 1, 917528, 262144, 1, 983064, 327680, 1, 1048600, 262144, 1, 1114136, 327680, 1, 1179672, 262144, 1, 1245208, 262144, 1, 1310744, 327680, 0, 1376280, 327680, 1, 1441816, 327680, 1, 1507352, 262144, 1, 851993, 327680, 0, 917529, 327680, 1, 983065, 262144, 0, 1048601, 327680, 0, 1114137, 262144, 0, 1179673, 262144, 0, 1245209, 262144, 1, 1310745, 262144, 0, 1376281, 262144, 0, 1441817, 262144, 0, 1507353, 327680, 1, 851994, 327680, 0, 917530, 327680, 0, 983066, 327680, 0, 1048602, 327680, 0, 1114138, 262144, 1, 1179674, 262144, 1, 1245210, 262144, 0, 1310746, 327680, 1, 1376282, 327680, 1, 1441818, 327680, 0, 1507354, 327680, 1, 851995, 327680, 0, 917531, 262144, 0, 983067, 262144, 1, 1048603, 327680, 1, 1114139, 327680, 1, 1179675, 262144, 0, 1245211, 262144, 1, 1310747, 262144, 1, 1376283, 327680, 0, 1441819, 262144, 0, 1507355, 327680, 1, 851996, 262144, 1, 917532, 262144, 1, 983068, 262144, 1, 1048604, 262144, 1, 1114140, 262144, 0, 1179676, 327680, 0, 1245212, 262144, 1, 1310748, 327680, 0, 1376284, 262144, 0, 1441820, 262144, 1, 1507356, 262144, 1, 851997, 262144, 0, 917533, 262144, 1, 983069, 327680, 1, 1048605, 327680, 1, 1114141, 327680, 1, 1179677, 262144, 1, 1245213, 262144, 0, 1310749, 327680, 0, 1376285, 262144, 1, 1441821, 327680, 0, 1507357, 262144, 1, 851998, 327680, 1, 917534, 327680, 1, 983070, 262144, 0, 1048606, 327680, 1, 1114142, 327680, 1, 1179678, 262144, 0, 1245214, 262144, 0, 1310750, 327680, 1, 1376286, 262144, 1, 1441822, 262144, 0, 1507358, 327680, 1, 851999, 262144, 1, 917535, 327680, 1, 983071, 262144, 1, 1048607, 262144, 1, 1114143, 262144, 0, 1179679, 262144, 0, 1245215, 262144, 1, 1310751, 327680, 0, 1376287, 327680, 0, 1441823, 327680, 1, 1507359, 262144, 1, 852000, 262144, 0, 917536, 327680, 0, 983072, 327680, 1, 1048608, 262144, 0, 1114144, 327680, 1, 1179680, 327680, 1, 1245216, 262144, 1, 1310752, 327680, 0, 1376288, 262144, 1, 1441824, 327680, 1, 1507360, 327680, 0, 524321, 327680, 1, 589857, 327680, 1, 655393, 262144, 0, 720929, 327680, 0, 786465, 327680, 1, 852001, 327680, 1, 917537, 327680, 1, 983073, 262144, 1, 1048609, 262144, 0, 1114145, 327680, 0, 1179681, 262144, 1, 1245217, 262144, 1, 1310753, 327680, 1, 1376289, 262144, 0, 1441825, 262144, 1, 1507361, 262144, 1, -2162726, 262144, 1, -2097190, 262144, 1, -2031654, 262144, 0, -1966118, 262144, 1, -1900582, 327680, 0, -1835046, 262144, 1, -1769510, 327680, 0, -1703974, 327680, 0, -2162725, 327680, 0, -2097189, 262144, 1, -2031653, 262144, 1, -1966117, 327680, 1, -1900581, 327680, 0, -1835045, 262144, 1, -1769509, 262144, 0, -1703973, 262144, 1, -2162724, 327680, 1, -2097188, 327680, 0, -2031652, 262144, 1, -1966116, 327680, 0, -1900580, 327680, 1, -1835044, 327680, 1, -1769508, 262144, 0, -1703972, 327680, 0, -2162723, 327680, 0, -2097187, 262144, 1, -2031651, 327680, 0, -1966115, 327680, 1, -1900579, 262144, 1, -1835043, 262144, 1, -1769507, 262144, 1, -1703971, 327680, 0, -2162722, 327680, 0, -2097186, 262144, 1, -2031650, 262144, 1, -1966114, 262144, 1, -1900578, 327680, 0, -1835042, 327680, 0, -1769506, 327680, 1, -1703970, 262144, 1, -2162721, 262144, 0, -2097185, 327680, 0, -2031649, 262144, 0, -1966113, 327680, 1, -1900577, 262144, 0, -1835041, 262144, 1, -1769505, 327680, 1, -1703969, 327680, 0, -2162720, 262144, 1, -2097184, 262144, 0, -2031648, 327680, 1, -1966112, 262144, 0, -1900576, 327680, 1, -1835040, 327680, 1, -1769504, 327680, 1, -1703968, 327680, 0, -2162719, 327680, 0, -2097183, 327680, 0, -2031647, 327680, 1, -1966111, 327680, 1, -1900575, 262144, 0, -1835039, 327680, 1, -1769503, 327680, 0, -1703967, 327680, 1, -2162718, 327680, 1, -2097182, 327680, 1, -2031646, 262144, 0, -1966110, 262144, 0, -1900574, 327680, 0, -1835038, 327680, 1, -1769502, 262144, 1, -1703966, 327680, 1, -2162717, 262144, 1, -2097181, 262144, 1, -2031645, 327680, 0, -1966109, 327680, 1, -1900573, 262144, 0, -1835037, 327680, 1, -2162716, 327680, 1, -2097180, 262144, 1, -2031644, 327680, 0, -1966108, 327680, 1, -1900572, 327680, 0, -1835036, 327680, 0, -2162715, 262144, 1, -2097179, 327680, 0, -2031643, 262144, 1, -1966107, 327680, 0, -1900571, 327680, 1, -1835035, 327680, 0, -2162714, 327680, 1, -2097178, 262144, 1, -2031642, 327680, 0, -1966106, 327680, 1, -1900570, 327680, 1, -1835034, 327680, 0, -2228198, 262144, 1, -2162662, 327680, 0, -2097126, 262144, 1, -2031590, 262144, 0, -1966054, 262144, 1, -1900518, 262144, 0, -2228197, 262144, 1, -2162661, 327680, 1, -2097125, 262144, 0, -2031589, 327680, 0, -1966053, 327680, 0, -1900517, 327680, 1, -2228196, 262144, 0, -2162660, 262144, 1, -2097124, 327680, 1, -2031588, 262144, 0, -1966052, 327680, 1, -1900516, 262144, 0, -2228195, 262144, 0, -2162659, 327680, 0, -2097123, 262144, 1, -2031587, 262144, 1, -1966051, 327680, 0, -1900515, 262144, 1, -2228194, 262144, 1, -2162658, 262144, 1, -2097122, 327680, 0, -2031586, 262144, 1, -1966050, 327680, 1, -1900514, 327680, 0, -2228193, 327680, 0, -2162657, 327680, 1, -2097121, 262144, 1, -2031585, 327680, 0, -1966049, 262144, 1, -1900513, 262144, 0, -1834977, 327680, 1, -1769441, 327680, 1, -1703905, 262144, 1, -2228192, 327680, 1, -2162656, 327680, 0, -2097120, 262144, 0, -2031584, 327680, 0, -1966048, 262144, 0, -1900512, 262144, 0, -1834976, 262144, 0, -1769440, 262144, 1, -1703904, 327680, 1, -2228191, 262144, 0, -2162655, 327680, 1, -2097119, 327680, 1, -2031583, 327680, 0, -1966047, 327680, 1, -1900511, 262144, 1, -1834975, 262144, 0, -1769439, 327680, 1, -1703903, 262144, 1, -1638367, 327680, 1, -1572831, 327680, 1, -1507295, 262144, 1, -1441759, 262144, 1, -1376223, 262144, 1, -1310687, 262144, 1, -1245151, 327680, 1, -1179615, 327680, 1, -2228190, 327680, 1, -2162654, 262144, 1, -2097118, 262144, 1, -2031582, 262144, 1, -1966046, 262144, 1, -1900510, 262144, 1, -1834974, 327680, 1, -1769438, 262144, 1, -1703902, 262144, 0, -1638366, 262144, 0, -1572830, 262144, 0, -1507294, 262144, 0, -1441758, 262144, 0, -1376222, 327680, 1, -1310686, 327680, 1, -1245150, 262144, 1, -1179614, 262144, 1, -2228189, 327680, 1, -2162653, 327680, 1, -2097117, 262144, 0, -2031581, 327680, 1, -1966045, 262144, 0, -1900509, 262144, 1, -1834973, 262144, 1, -1769437, 262144, 0, -1703901, 262144, 0, -1638365, 327680, 1, -1572829, 262144, 0, -1507293, 327680, 0, -1441757, 262144, 1, -1376221, 327680, 1, -1310685, 262144, 1, -1245149, 327680, 0, -1179613, 262144, 1, -2228188, 327680, 1, -2162652, 262144, 1, -2097116, 262144, 0, -2031580, 327680, 1, -1966044, 262144, 1, -1900508, 327680, 0, -1834972, 262144, 0, -1769436, 262144, 1, -1703900, 262144, 1, -1638364, 327680, 0, -1572828, 262144, 1, -1507292, 262144, 0, -1441756, 262144, 1, -1376220, 262144, 1, -1310684, 327680, 1, -1245148, 327680, 0, -1179612, 262144, 0, -1114079, 262144, 0, -1048543, 262144, 1, -983007, 327680, 1, -917471, 262144, 1, -851935, 327680, 1, -786399, 262144, 0, -720863, 327680, 0, -655327, 327680, 0, -589791, 327680, 0, -524255, 327680, 1, -458719, 327680, 0, -393183, 327680, 0, -327647, 327680, 1, -262111, 327680, 0, -196575, 262144, 0, -131039, 262144, 1, -65503, 262144, 0, 33, 262144, 1, 65569, 262144, 1, 131105, 262144, 0, 196641, 327680, 0, 262177, 262144, 0, -1114078, 262144, 0, -1048542, 262144, 0, -983006, 262144, 1, -917470, 262144, 0, -851934, 262144, 0, -786398, 262144, 0, -720862, 262144, 0, -655326, 262144, 1, -589790, 327680, 0, -524254, 262144, 0, -458718, 262144, 1, -393182, 262144, 0, -327646, 262144, 0, -262110, 262144, 0, -196574, 262144, 0, -131038, 327680, 1, -65502, 262144, 0, 34, 262144, 1, 65570, 262144, 0, 131106, 327680, 1, 196642, 262144, 1, 262178, 327680, 1, -1114077, 327680, 0, -1048541, 262144, 0, -983005, 327680, 1, -917469, 262144, 0, -851933, 262144, 1, -786397, 327680, 1, -720861, 327680, 0, -655325, 327680, 0, -589789, 327680, 0, -524253, 327680, 0, -458717, 262144, 0, -393181, 327680, 1, -327645, 262144, 0, -262109, 327680, 1, -196573, 262144, 0, -131037, 327680, 1, -65501, 262144, 0, 35, 262144, 1, 65571, 327680, 0, 131107, 327680, 1, 196643, 262144, 1, 262179, 262144, 1, -1114076, 327680, 0, -1048540, 327680, 1, -983004, 327680, 1, -917468, 327680, 0, -851932, 262144, 0, -786396, 327680, 0, -720860, 262144, 0, -655324, 262144, 0, -589788, 327680, 1, -524252, 327680, 0, -458716, 262144, 0, -393180, 327680, 1, -327644, 262144, 1, -262108, 327680, 1, -196572, 262144, 1, -131036, 327680, 0, -65500, 262144, 1, 36, 262144, 1, 65572, 262144, 1, 131108, 327680, 1, 196644, 327680, 1, 262180, 262144, 1, -1310683, 262144, 1, -1245147, 262144, 0, -1179611, 327680, 0, -1114075, 327680, 0, -1048539, 262144, 0, -983003, 262144, 1, -917467, 327680, 1, -851931, 327680, 1, -786395, 327680, 1, -720859, 327680, 0, -655323, 262144, 0, -589787, 262144, 1, -524251, 262144, 1, -458715, 327680, 0, -393179, 327680, 0, -327643, 262144, 1, -262107, 327680, 1, -196571, 262144, 1, -131035, 327680, 1, -65499, 327680, 1, 37, 262144, 0, 65573, 262144, 0, 131109, 327680, 0, 196645, 262144, 1, 262181, 262144, 0, -1310682, 327680, 0, -1245146, 262144, 0, -1179610, 262144, 0, -1114074, 262144, 1, -1048538, 262144, 1, -983002, 327680, 1, -917466, 327680, 0, -851930, 262144, 1, -786394, 327680, 0, -720858, 327680, 1, -655322, 262144, 0, -589786, 327680, 0, -524250, 262144, 1, -458714, 327680, 0, -393178, 327680, 1, -327642, 262144, 1, -262106, 327680, 0, -196570, 327680, 1, -131034, 262144, 1, -65498, 262144, 0, 38, 327680, 1, 65574, 327680, 1, 131110, 262144, 0, 196646, 262144, 0, 262182, 327680, 1, -1310681, 262144, 0, -1245145, 327680, 0, -1179609, 262144, 0, -1114073, 327680, 1, -1048537, 327680, 1, -983001, 262144, 1, -917465, 327680, 0, -851929, 327680, 0, -786393, 262144, 1, -720857, 327680, 0, -655321, 327680, 0, -589785, 327680, 0, -524249, 327680, 1, -458713, 262144, 1, -393177, 327680, 0, -327641, 327680, 0, -262105, 327680, 1, -196569, 327680, 1, -131033, 262144, 1, -65497, 262144, 1, 39, 262144, 0, 65575, 262144, 1, 131111, 262144, 0, 196647, 262144, 1, 262183, 262144, 0, -1310680, 262144, 1, -1245144, 327680, 0, -1179608, 262144, 1, -1114072, 327680, 0, -1048536, 262144, 1, -983000, 262144, 1, -917464, 262144, 0, -851928, 327680, 1, -786392, 327680, 0, -720856, 327680, 0, -655320, 327680, 1, -589784, 262144, 1, -524248, 262144, 0, -458712, 327680, 0, -393176, 327680, 1, -327640, 262144, 1, -262104, 262144, 1, -196568, 262144, 0, -131032, 262144, 1, -65496, 262144, 1, 40, 262144, 0, 65576, 262144, 0, 131112, 327680, 1, 196648, 262144, 0, 262184, 262144, 0, -1310679, 262144, 1, -1245143, 327680, 1, -1179607, 262144, 0, -1114071, 262144, 0, -1048535, 327680, 1, -982999, 327680, 1, -917463, 262144, 1, -851927, 262144, 0, -786391, 327680, 0, -720855, 262144, 1, -655319, 327680, 1, -589783, 262144, 0, -524247, 327680, 1, -458711, 327680, 0, -393175, 327680, 1, -327639, 262144, 1, -262103, 327680, 1, -196567, 327680, 1, -131031, 262144, 1, -65495, 262144, 0, 41, 327680, 1, 65577, 262144, 0, 131113, 327680, 0, 196649, 327680, 1, 262185, 327680, 0, -1245234, 262144, 0, -1179698, 327680, 0, -1114162, 327680, 1, -1048626, 327680, 1, -983090, 262144, 1, -917554, 262144, 1, -852018, 327680, 0, -786482, 262144, 0, -720946, 327680, 0, -655410, 327680, 0, -589874, 327680, 1, -524338, 327680, 0, -458802, 327680, 0, -393266, 327680, 0, -327730, 262144, 0, -262194, 327680, 0, -196658, 327680, 0, -131122, 327680, 1, -65586, 262144, 1, -50, 327680, 0, 65486, 327680, 1, 131022, 327680, 1, 196558, 262144, 1, 262094, 327680, 0, 327630, 262144, 1, 393166, 262144, 0, 458702, 327680, 1, 524238, 262144, 1, 589774, 262144, 0, 655310, 262144, 0, 720846, 262144, 0, 786382, 262144, 0, 851918, 327680, 1, 917454, 262144, 0, 982990, 262144, 1, -1245233, 262144, 1, -1179697, 327680, 1, -1114161, 327680, 1, -1048625, 262144, 1, -983089, 327680, 0, -917553, 327680, 0, -852017, 262144, 1, -786481, 327680, 0, -720945, 327680, 0, -655409, 262144, 1, -589873, 262144, 1, -524337, 327680, 0, -458801, 262144, 1, -393265, 262144, 0, -327729, 262144, 0, -262193, 262144, 0, -196657, 262144, 0, -131121, 327680, 1, -65585, 327680, 1, -49, 262144, 0, 65487, 262144, 1, 131023, 262144, 1, 196559, 262144, 0, 262095, 327680, 0, 327631, 262144, 0, 393167, 262144, 0, 458703, 327680, 0, 524239, 327680, 0, 589775, 262144, 1, 655311, 327680, 0, 720847, 327680, 1, 786383, 262144, 0, 851919, 327680, 1, 917455, 262144, 1, 982991, 262144, 1, -1245232, 262144, 0, -1179696, 262144, 0, -1114160, 327680, 1, -1048624, 327680, 0, -983088, 327680, 0, -917552, 262144, 1, -852016, 262144, 1, -786480, 327680, 1, -720944, 327680, 1, -655408, 262144, 0, -589872, 327680, 0, -524336, 327680, 0, -458800, 262144, 1, -393264, 262144, 1, -327728, 327680, 1, -262192, 262144, 0, -196656, 262144, 0, -131120, 262144, 1, -65584, 327680, 0, -48, 262144, 1, 65488, 262144, 0, 131024, 262144, 0, 196560, 327680, 1, 262096, 327680, 0, 327632, 262144, 0, 393168, 262144, 0, 458704, 327680, 0, 524240, 262144, 0, 589776, 327680, 0, 655312, 262144, 0, 720848, 262144, 0, 786384, 327680, 0, 851920, 262144, 0, 917456, 262144, 0, 982992, 262144, 0, -1245231, 262144, 1, -1179695, 327680, 0, -1114159, 262144, 1, -1048623, 262144, 0, -983087, 327680, 1, -917551, 327680, 0, -852015, 262144, 0, -786479, 262144, 1, -720943, 327680, 1, -655407, 262144, 0, -589871, 327680, 1, -524335, 327680, 0, -458799, 327680, 0, -393263, 327680, 0, -327727, 262144, 1, -262191, 327680, 0, -196655, 327680, 1, -131119, 327680, 0, -65583, 327680, 1, -47, 262144, 1, 65489, 327680, 1, 131025, 262144, 1, 196561, 262144, 1, 262097, 262144, 1, 327633, 327680, 1, 393169, 262144, 0, 458705, 327680, 0, 524241, 327680, 1, 589777, 262144, 0, 655313, 262144, 0, 720849, 327680, 0, 786385, 262144, 1, 851921, 262144, 1, 917457, 327680, 1, 982993, 262144, 0, -1245230, 327680, 1, -1179694, 327680, 0, -1114158, 262144, 1, -1048622, 262144, 0, -983086, 262144, 0, -917550, 262144, 1, -852014, 327680, 0, -786478, 262144, 0, -720942, 327680, 0, -655406, 327680, 1, -589870, 262144, 1, -524334, 327680, 0, -458798, 262144, 1, -393262, 262144, 1, -327726, 327680, 0, -262190, 327680, 1, -196654, 262144, 0, -131118, 262144, 1, -65582, 262144, 1, -46, 262144, 1, 65490, 327680, 0, 131026, 262144, 1, 196562, 327680, 0, 262098, 327680, 1, 327634, 262144, 1, 393170, 327680, 0, 458706, 262144, 1, 524242, 262144, 0, 589778, 262144, 0, 655314, 262144, 0, 720850, 327680, 1, 786386, 262144, 0, 851922, 327680, 1, 917458, 327680, 1, 982994, 262144, 0, -1245229, 262144, 1, -1179693, 262144, 1, -1114157, 327680, 1, -1048621, 327680, 0, -983085, 262144, 0, -917549, 327680, 0, -852013, 327680, 1, -786477, 327680, 0, -720941, 262144, 1, -655405, 327680, 1, -589869, 327680, 0, -524333, 262144, 0, -458797, 327680, 0, -393261, 327680, 1, -327725, 262144, 0, -262189, 327680, 1, -196653, 327680, 0, -131117, 262144, 0, -65581, 327680, 0, -45, 262144, 0, 65491, 327680, 0, 131027, 262144, 0, 196563, 327680, 1, 262099, 262144, 1, 327635, 262144, 0, 393171, 327680, 1, 458707, 327680, 1, 524243, 262144, 0, 589779, 327680, 1, 655315, 327680, 0, 720851, 262144, 0, 786387, 262144, 1, 851923, 262144, 1, 917459, 262144, 0, 982995, 327680, 1, -1245228, 327680, 0, -1179692, 327680, 1, -1114156, 262144, 1, -1048620, 262144, 1, -983084, 262144, 0, -917548, 327680, 0, -852012, 262144, 0, -786476, 262144, 0, -720940, 327680, 0, -655404, 327680, 0, -589868, 262144, 0, -524332, 262144, 0, -458796, 262144, 1, -393260, 327680, 0, -327724, 262144, 0, -262188, 262144, 0, -196652, 327680, 0, -131116, 327680, 1, -65580, 262144, 1, -44, 327680, 0, 65492, 327680, 0, 131028, 327680, 1, 196564, 327680, 0, 262100, 327680, 0, 327636, 327680, 0, 393172, 262144, 1, 458708, 262144, 1, 524244, 327680, 1, 589780, 262144, 0, 655316, 262144, 1, 720852, 327680, 1, 786388, 262144, 1, 851924, 327680, 1, 917460, 262144, 0, 982996, 262144, 1, -1245227, 262144, 1, -1179691, 327680, 0, -1114155, 262144, 1, -1048619, 262144, 0, -983083, 262144, 1, -917547, 327680, 1, -852011, 262144, 0, -786475, 262144, 1, -720939, 327680, 1, -655403, 262144, 0, -589867, 327680, 0, -524331, 262144, 1, -458795, 327680, 1, -393259, 327680, 1, -327723, 327680, 0, -262187, 327680, 1, -196651, 327680, 0, -131115, 327680, 1, -65579, 327680, 1, -43, 327680, 1, 65493, 262144, 0, 131029, 262144, 0, 196565, 327680, 0, 262101, 327680, 0, 327637, 327680, 1, 393173, 262144, 0, 458709, 327680, 1, 524245, 327680, 1, 589781, 327680, 0, 655317, 262144, 1, 720853, 262144, 0, 786389, 327680, 1, 851925, 327680, 1, 917461, 262144, 1, 982997, 262144, 0, -1245226, 262144, 0, -1179690, 327680, 0, -1114154, 327680, 1, -1048618, 327680, 1, -983082, 262144, 1, -917546, 327680, 0, -852010, 262144, 1, -786474, 327680, 0, -720938, 327680, 0, -655402, 262144, 1, -589866, 327680, 1, -524330, 327680, 0, -458794, 262144, 0, -393258, 327680, 1, -327722, 262144, 0, -262186, 262144, 0, -196650, 327680, 0, -131114, 327680, 0, -65578, 262144, 1, -42, 327680, 0, 65494, 327680, 0, 131030, 327680, 1, 196566, 327680, 0, 262102, 262144, 0, 327638, 327680, 1, 393174, 262144, 0, 458710, 262144, 1, 524246, 327680, 1, 589782, 262144, 0, 655318, 327680, 1, 720854, 262144, 0, 786390, 262144, 1, 851926, 327680, 1, 917462, 262144, 1, 982998, 262144, 0, 655341, 327680, 0, 720877, 327680, 0, 786413, 262144, 0, 851949, 262144, 1, 917485, 327680, 0, 655342, 327680, 0, 720878, 262144, 0, 786414, 327680, 1, 851950, 262144, 0, 917486, 262144, 0, 655343, 262144, 0, 720879, 262144, 1, 786415, 327680, 0, 851951, 327680, 1, 917487, 327680, 0, 655344, 262144, 0, 720880, 262144, 0, 786416, 262144, 0, 851952, 327680, 1, 917488, 262144, 1, 655345, 327680, 0, 720881, 262144, 0, 786417, 262144, 1, 851953, 262144, 0, 917489, 327680, 0, 655346, 327680, 0, 720882, 327680, 1, 786418, 327680, 0, 851954, 327680, 1, 917490, 327680, 1, 655347, 327680, 1, 720883, 327680, 0, 786419, 262144, 0, 851955, 327680, 0, 917491, 262144, 1, 655348, 327680, 1, 720884, 262144, 0, 786420, 262144, 1, 851956, 262144, 0, 917492, 327680, 1, 655349, 262144, 1, 720885, 327680, 0, 786421, 327680, 0, 851957, 262144, 1, 917493, 327680, 1, 655350, 327680, 1, 720886, 262144, 0, 786422, 327680, 1, 851958, 327680, 0, 917494, 327680, 0, 655351, 262144, 0, 720887, 327680, 0, 786423, 262144, 1, 851959, 327680, 0, 917495, 327680, 0, 655352, 262144, 0, 720888, 262144, 0, 786424, 262144, 0, 851960, 262144, 0, 917496, 262144, 1, 655353, 327680, 0, 720889, 262144, 1, 786425, 327680, 1, 851961, 327680, 1, 917497, 262144, 1, 655354, 327680, 0, 720890, 327680, 1, 786426, 327680, 1, 851962, 327680, 1, 917498, 327680, 0, 655355, 262144, 1, 720891, 327680, 1, 786427, 262144, 0, 851963, 327680, 1, 917499, 327680, 0, 655356, 327680, 0, 720892, 327680, 1, 786428, 327680, 1, 851964, 262144, 0, 917500, 262144, 1, 655357, 327680, 1, 720893, 327680, 1, 786429, 327680, 0, 851965, 327680, 0, 917501, 327680, 1, 655358, 327680, 1, 720894, 262144, 1, 786430, 327680, 1, 851966, 262144, 0, 917502, 262144, 1, 655359, 327680, 1, 720895, 327680, 1, 786431, 262144, 0, 851967, 262144, 0, 917503, 327680, 1, 589824, 262144, 1, 655360, 262144, 0, 720896, 262144, 0, 786432, 262144, 0, 851968, 262144, 0, 589825, 262144, 1, 655361, 327680, 1, 720897, 327680, 1, 786433, 262144, 0, 851969, 327680, 0, 589826, 262144, 0, 655362, 327680, 0, 720898, 327680, 1, 786434, 327680, 1, 851970, 327680, 1, 589827, 327680, 0, 655363, 262144, 1, 720899, 327680, 0, 786435, 327680, 1, 851971, 262144, 1, 589828, 327680, 0, 655364, 262144, 1, 720900, 262144, 1, 786436, 262144, 1, 851972, 262144, 1, 589829, 262144, 1, 655365, 327680, 1, 720901, 327680, 1, 786437, 327680, 0, 851973, 327680, 0, 589830, 262144, 1, 655366, 327680, 1, 720902, 327680, 0, 786438, 262144, 0, 851974, 327680, 1, 589831, 262144, 0, 655367, 262144, 1, 720903, 327680, 1, 786439, 262144, 1, 851975, 327680, 0, 589832, 262144, 1, 655368, 327680, 0, 720904, 262144, 1, 786440, 262144, 0, 851976, 327680, 0, 589833, 262144, 1, 655369, 262144, 0, 720905, 262144, 0, 786441, 262144, 1, 851977, 327680, 0, 589834, 327680, 1, 655370, 262144, 1, 720906, 327680, 1, 589835, 262144, 1, 655371, 327680, 1, 720907, 262144, 1, 589836, 262144, 0, 655372, 262144, 0, 720908, 327680, 1, 589837, 262144, 0, 655373, 327680, 1, 720909, 327680, 0, 589838, 262144, 0, 655374, 262144, 1, 720910, 327680, 1, 524269, 327680, 0, 589805, 327680, 0, 524270, 327680, 1, 589806, 327680, 0, 196591, 327680, 0, 262127, 262144, 1, 327663, 327680, 0, 393199, 262144, 0, 458735, 262144, 0, 524271, 262144, 0, 589807, 262144, 1, 1507301, 327680, 0, 1572837, 262144, 1, 1638373, 262144, 0, 1703909, 262144, 0, 1769445, 262144, 0, 1834981, 262144, 0, 1507302, 327680, 0, 1572838, 327680, 1, 1638374, 327680, 1, 1703910, 327680, 0, 1769446, 327680, 0, 1834982, 327680, 1, 1507303, 262144, 0, 1572839, 327680, 0, 1638375, 262144, 0, 1703911, 262144, 0, 1769447, 262144, 1, 1834983, 262144, 1, 1507304, 262144, 0, 1572840, 327680, 1, 1638376, 262144, 0, 1703912, 262144, 1, 1769448, 262144, 1, 1834984, 262144, 1, 1507305, 327680, 0, 1572841, 327680, 1, 1638377, 327680, 0, 1703913, 327680, 1, 1769449, 327680, 1, 1834985, 262144, 1, 1507306, 327680, 1, 1572842, 262144, 1, 1638378, 327680, 1, 1703914, 262144, 0, 1769450, 262144, 0, 1834986, 262144, 1, 1507307, 262144, 1, 1572843, 262144, 0, 1638379, 327680, 0, 1703915, 262144, 1, 1769451, 327680, 0, 1834987, 327680, 0, 1507308, 262144, 1, 1572844, 327680, 0, 1638380, 262144, 0, 1703916, 262144, 0, 1769452, 262144, 1, 1834988, 327680, 0, 1507309, 262144, 0, 1572845, 327680, 0, 1638381, 262144, 1, 1703917, 327680, 0, 1769453, 262144, 0, 1834989, 327680, 0, 1310702, 262144, 1, 1376238, 327680, 1, 1441774, 327680, 0, 1507310, 327680, 1, 1572846, 262144, 0, 1638382, 262144, 0, 1703918, 327680, 1, 1769454, 327680, 1, 1834990, 327680, 1, 1310703, 262144, 0, 1376239, 262144, 1, 1441775, 262144, 0, 1507311, 262144, 0, 1572847, 262144, 1, 1638383, 262144, 1, 1703919, 327680, 0, 1769455, 327680, 1, 1834991, 262144, 0, 1310704, 262144, 0, 1376240, 262144, 0, 1441776, 262144, 1, 1507312, 327680, 0, 1572848, 262144, 0, 1638384, 327680, 1, 1703920, 262144, 0, 1769456, 262144, 0, 1834992, 327680, 1, 1310705, 327680, 0, 1376241, 327680, 1, 1441777, 327680, 1, 1507313, 327680, 0, 1572849, 327680, 1, 1638385, 327680, 0, 1703921, 262144, 0, 1769457, 327680, 1, 1834993, 262144, 0, 1310706, 262144, 0, 1376242, 262144, 0, 1441778, 262144, 0, 1507314, 262144, 0, 1572850, 262144, 0, 1638386, 327680, 1, 1703922, 327680, 0, 1769458, 327680, 0, 1834994, 327680, 0, 1310707, 327680, 1, 1376243, 327680, 0, 1441779, 327680, 1, 1507315, 262144, 1, 1572851, 327680, 0, 1638387, 262144, 0, 1703923, 262144, 1, 1769459, 262144, 0, 1834995, 327680, 1, 1310708, 327680, 1, 1376244, 262144, 1, 1441780, 327680, 0, 1507316, 327680, 1, 1572852, 327680, 0, 1638388, 262144, 0, 1703924, 327680, 0, 1769460, 262144, 1, 1834996, 262144, 1, 1310709, 327680, 0, 1376245, 327680, 0, 1441781, 327680, 0, 1507317, 262144, 0, 1572853, 262144, 1, 1638389, 262144, 0, 1703925, 327680, 1, 1769461, 327680, 1, 1834997, 327680, 0, 1310710, 327680, 0, 1376246, 327680, 1, 1441782, 327680, 1, 1507318, 262144, 1, 1572854, 327680, 0, 1638390, 327680, 0, 1703926, 327680, 1, 1769462, 327680, 1, 1834998, 327680, 0, 1310711, 262144, 1, 1376247, 327680, 0, 1441783, 327680, 1, 1507319, 327680, 0, 1572855, 327680, 0, 1638391, 262144, 1, 1703927, 262144, 1, 1769463, 327680, 0, 1834999, 262144, 0, 1310712, 262144, 1, 1376248, 262144, 1, 1441784, 327680, 1, 1507320, 327680, 0, 1572856, 262144, 1, 1638392, 327680, 1, 1703928, 262144, 1, 1769464, 327680, 0, 1835000, 262144, 0, 1310713, 262144, 1, 1376249, 262144, 1, 1441785, 262144, 1, 1507321, 327680, 0, 1572857, 327680, 0, 1638393, 327680, 1, 1703929, 262144, 1, 1769465, 327680, 1, 1835001, 327680, 0, 1310714, 327680, 1, 1376250, 262144, 1, 1441786, 327680, 1, 1507322, 262144, 1, 1572858, 327680, 1, 1638394, 262144, 0, 1703930, 327680, 0, 1769466, 327680, 0, 1835002, 327680, 1, 1310715, 327680, 1, 1376251, 262144, 0, 1441787, 327680, 0, 1507323, 262144, 1, 1572859, 327680, 0, 1638395, 262144, 1, 1703931, 262144, 1, 1769467, 262144, 1, 1835003, 327680, 1, 1310716, 262144, 1, 1376252, 327680, 0, 1441788, 262144, 1, 1507324, 327680, 0, 1572860, 327680, 1, 1638396, 327680, 0, 1703932, 327680, 1, 1769468, 262144, 0, 1835004, 327680, 1, 1310717, 262144, 0, 1376253, 262144, 1, 1441789, 327680, 1, 1507325, 327680, 0, 1572861, 327680, 0, 1638397, 327680, 1, 1703933, 327680, 1, 1769469, 262144, 0, 1835005, 327680, 0, 1310718, 262144, 1, 1376254, 262144, 0, 1441790, 327680, 1, 1507326, 327680, 0, 1572862, 262144, 1, 1638398, 327680, 0, 1703934, 262144, 0, 1769470, 327680, 1, 1835006, 262144, 0, 1310719, 327680, 0, 1376255, 327680, 0, 1441791, 327680, 1, 1507327, 262144, 1, 1572863, 262144, 1, 1638399, 262144, 1, 1703935, 327680, 0, 1769471, 327680, 1, 1835007, 327680, 1, 1245184, 327680, 0, 1310720, 327680, 0, 1376256, 327680, 1, 1441792, 327680, 0, 1507328, 327680, 1, 1572864, 262144, 1, 1638400, 327680, 1, 1703936, 327680, 0, 1769472, 262144, 0, 1245185, 262144, 1, 1310721, 262144, 0, 1376257, 327680, 0, 1441793, 327680, 0, 1507329, 327680, 1, 1572865, 262144, 0, 1638401, 327680, 0, 1703937, 262144, 0, 1769473, 262144, 1, 1245186, 262144, 1, 1310722, 262144, 0, 1376258, 262144, 0, 1441794, 262144, 1, 1507330, 327680, 0, 1572866, 262144, 1, 1638402, 262144, 1, 1703938, 327680, 1, 1769474, 327680, 1, 1245187, 327680, 1, 1310723, 327680, 0, 1376259, 327680, 1, 1441795, 262144, 1, 1507331, 262144, 1, 1572867, 262144, 1, 1638403, 262144, 1, 1703939, 262144, 1, 1769475, 262144, 1, 1245188, 327680, 0, 1310724, 327680, 0, 1376260, 327680, 0, 1441796, 327680, 1, 1507332, 327680, 1, 1572868, 327680, 0, 1638404, 327680, 1, 1703940, 262144, 0, 1769476, 262144, 0, 1245189, 262144, 1, 1310725, 327680, 1, 1376261, 327680, 0, 1441797, 327680, 1, 1507333, 327680, 1, 1572869, 262144, 0, 1638405, 327680, 0, 1703941, 327680, 0, 1769477, 262144, 0, 1245190, 327680, 1, 1310726, 327680, 0, 1376262, 262144, 0, 1441798, 327680, 1, 1507334, 262144, 0, 1572870, 327680, 1, 1638406, 327680, 1, 1703942, 262144, 0, 1769478, 262144, 1, 1245191, 262144, 1, 1310727, 327680, 0, 1376263, 327680, 0, 1441799, 327680, 0, 1507335, 327680, 1, 1572871, 262144, 0, 1638407, 262144, 1, 1703943, 262144, 0, 1769479, 327680, 0, 1245192, 262144, 1, 1310728, 327680, 0, 1376264, 262144, 1, 1441800, 327680, 0, 1507336, 262144, 0, 1572872, 327680, 1, 1638408, 262144, 1, 1703944, 262144, 1, 1769480, 327680, 1, 1245193, 327680, 0, 1310729, 327680, 0, 1376265, 327680, 1, 1441801, 327680, 1, 1507337, 262144, 1, 1572873, 327680, 0, 1638409, 262144, 1, 1703945, 327680, 0, 1769481, 327680, 0, 1245194, 327680, 1, 1310730, 262144, 0, 1376266, 327680, 0, 1441802, 327680, 0, 1507338, 262144, 0, 1572874, 327680, 0, 1638410, 327680, 1, 1703946, 327680, 1, 1769482, 262144, 1, 1245195, 327680, 0, 1310731, 262144, 1, 1376267, 327680, 0, 1441803, 327680, 0, 1507339, 262144, 0, 1572875, 262144, 0, 1638411, 262144, 1, 1703947, 327680, 1, 1769483, 327680, 1, 1245196, 262144, 1, 1310732, 262144, 0, 1376268, 262144, 0, 1441804, 262144, 1, 1507340, 327680, 1, 1572876, 262144, 1, 1638412, 327680, 1, 1703948, 262144, 1, 1769484, 327680, 1, 1245197, 327680, 0, 1310733, 327680, 0, 1376269, 327680, 0, 1441805, 262144, 0, 1507341, 327680, 0, 1572877, 262144, 0, 1638413, 262144, 0, 1703949, 327680, 1, 1769485, 327680, 1, 1245198, 262144, 1, 1310734, 262144, 0, 1376270, 327680, 1, 1441806, 262144, 1, 1507342, 327680, 0, 1572878, 262144, 0, 1638414, 327680, 0, 1703950, 262144, 0, 1769486, 262144, 1, 1245199, 327680, 1, 1310735, 262144, 0, 1376271, 327680, 0, 1441807, 327680, 1, 1507343, 262144, 1, 1572879, 262144, 1, 1638415, 262144, 1, 1703951, 262144, 1, 1769487, 327680, 0, 1245200, 262144, 0, 1310736, 327680, 0, 1376272, 262144, 1, 1441808, 327680, 0, 1507344, 327680, 0, 1572880, 327680, 1, 1638416, 327680, 0, 1703952, 327680, 0, 1769488, 327680, 0, 1245201, 262144, 0, 1310737, 327680, 0, 1376273, 262144, 0, 1441809, 327680, 1, 1507345, 327680, 1, 1572881, 262144, 1, 1638417, 262144, 0, 1703953, 262144, 1, 1769489, 262144, 0, 1245202, 262144, 0, 1310738, 262144, 1, 1376274, 262144, 1, 1441810, 262144, 0, 1507346, 327680, 0, 1572882, 262144, 1, 1638418, 327680, 1, 1703954, 327680, 1, 1769490, 262144, 0, 1572883, 327680, 1, 1638419, 327680, 0, 1703955, 327680, 1, 1769491, 327680, 1, 1572884, 262144, 1, 1638420, 327680, 1, 1703956, 262144, 0, 1769492, 262144, 0, 1572885, 262144, 1, 1638421, 327680, 0, 1703957, 262144, 1, 1769493, 327680, 1, 1572886, 262144, 0, 1638422, 327680, 0, 1703958, 327680, 0, 1769494, 262144, 0, 1572887, 262144, 1, 1638423, 327680, 0, 1703959, 327680, 1, 1769495, 262144, 0, 1572888, 327680, 1, 1638424, 327680, 1, 1703960, 262144, 0, 1769496, 262144, 0, 1572889, 262144, 0, 1638425, 262144, 0, 1703961, 262144, 1, 1769497, 327680, 1, 1572890, 262144, 0, 1638426, 262144, 1, 1703962, 327680, 1, 1769498, 262144, 1, 1572891, 262144, 1, 1638427, 327680, 0, 1703963, 262144, 1, 1769499, 327680, 0, -983025, 262144, 1, -917489, 262144, 0, -851953, 327680, 1, -786417, 262144, 1, -720881, 262144, 1, -655345, 327680, 1, -589809, 327680, 0, -524273, 262144, 0, -458737, 327680, 0, -393201, 327680, 1, -327665, 262144, 0, -983024, 327680, 0, -917488, 327680, 1, -851952, 327680, 0, -786416, 262144, 0, -720880, 327680, 1, -655344, 327680, 1, -589808, 262144, 0, -524272, 327680, 0, -458736, 262144, 1, -393200, 327680, 0, -327664, 262144, 0, -917525, 262144, 0, -851989, 262144, 0, -786453, 262144, 1, -720917, 262144, 0, -655381, 262144, 1, -589845, 327680, 1, -917524, 327680, 0, -851988, 327680, 1, -786452, 327680, 1, -720916, 327680, 1, -655380, 327680, 0, -589844, 262144, 1, -917523, 262144, 1, -851987, 327680, 1, -786451, 262144, 1, -720915, 262144, 0, -655379, 262144, 0, -589843, 327680, 1, -917522, 327680, 1, -851986, 327680, 1, -786450, 327680, 1, -720914, 262144, 0, -655378, 262144, 0, -589842, 327680, 0, -917521, 262144, 0, -851985, 262144, 1, -786449, 262144, 0, -720913, 327680, 0, -655377, 262144, 1, -589841, 327680, 1, -917520, 327680, 1, -851984, 327680, 0, -786448, 327680, 0, -720912, 262144, 0, -655376, 262144, 1, -589840, 327680, 0, -917519, 327680, 1, -851983, 262144, 1, -786447, 262144, 1, -720911, 262144, 1, -655375, 327680, 1, -589839, 262144, 1, -917518, 262144, 0, -851982, 327680, 0, -786446, 327680, 1, -720910, 327680, 0, -655374, 327680, 1, -589838, 262144, 1, -917517, 327680, 1, -851981, 327680, 1, -786445, 327680, 0, -720909, 262144, 1, -655373, 327680, 1, -589837, 327680, 0, -917516, 262144, 1, -851980, 327680, 1, -786444, 327680, 1, -720908, 327680, 0, -655372, 327680, 0, -589836, 262144, 0, -917515, 327680, 0, -851979, 262144, 1, -786443, 327680, 0, -720907, 327680, 1, -655371, 262144, 0, -589835, 327680, 0, -917514, 262144, 1, -851978, 327680, 0, -786442, 327680, 0, -720906, 262144, 0, -655370, 327680, 0, -589834, 262144, 1, -917513, 327680, 0, -851977, 262144, 1, -786441, 327680, 0, -720905, 262144, 0, -655369, 327680, 0, -589833, 327680, 1, -917512, 262144, 0, -851976, 262144, 1, -786440, 327680, 0, -720904, 262144, 1, -655368, 327680, 1, -589832, 262144, 0, -917511, 262144, 1, -851975, 262144, 0, -786439, 327680, 0, -720903, 262144, 1, -655367, 327680, 1, -589831, 327680, 1, -917510, 327680, 0, -851974, 262144, 1, -786438, 327680, 0, -720902, 327680, 1, -655366, 327680, 1, -589830, 262144, 1, -917509, 327680, 0, -851973, 262144, 0, -786437, 262144, 1, -720901, 262144, 0, -655365, 327680, 0, -589829, 327680, 1, -917508, 327680, 1, -851972, 262144, 0, -786436, 327680, 0, -720900, 327680, 1, -655364, 262144, 0, -589828, 262144, 0, -917507, 262144, 0, -851971, 327680, 1, -786435, 262144, 1, -720899, 327680, 0, -655363, 327680, 0, -589827, 262144, 0, -917506, 262144, 1, -851970, 262144, 0, -786434, 262144, 1, -720898, 327680, 0, -655362, 327680, 0, -589826, 262144, 0, -917505, 262144, 1, -851969, 327680, 0, -786433, 327680, 1, -720897, 327680, 1, -655361, 262144, 0, -589825, 262144, 0, -983040, 327680, 1, -917504, 327680, 0, -851968, 262144, 0, -786432, 262144, 0, -720896, 262144, 0, -655360, 262144, 1, -983039, 327680, 0, -917503, 327680, 1, -851967, 262144, 1, -786431, 327680, 1, -720895, 327680, 1, -655359, 327680, 1, -983038, 327680, 1, -917502, 262144, 0, -851966, 262144, 1, -786430, 327680, 0, -720894, 327680, 0, -655358, 327680, 0, -983037, 327680, 0, -917501, 327680, 1, -851965, 262144, 1, -786429, 327680, 1, -720893, 327680, 1, -655357, 327680, 0, -983036, 262144, 1, -917500, 262144, 0, -851964, 262144, 0, -786428, 327680, 0, -720892, 262144, 1, -655356, 327680, 0, -983035, 262144, 1, -917499, 327680, 0, -851963, 262144, 1, -786427, 262144, 1, -720891, 327680, 0, -655355, 327680, 1, -983034, 262144, 1, -917498, 327680, 1, -851962, 262144, 1, -786426, 262144, 0, -720890, 262144, 1, -655354, 262144, 0, -983033, 327680, 1, -917497, 327680, 1, -851961, 327680, 1, -786425, 327680, 1, -720889, 262144, 0, -655353, 327680, 1, -983032, 327680, 0, -917496, 327680, 0, -851960, 327680, 1, -786424, 327680, 0, -720888, 327680, 0, -655352, 327680, 1, -983031, 262144, 1, -917495, 262144, 1, -851959, 327680, 0, -786423, 262144, 0, -720887, 262144, 0, -655351, 327680, 0, -983030, 262144, 0, -917494, 262144, 0, -851958, 262144, 0, -786422, 327680, 1, -720886, 327680, 1, -655350, 262144, 1, -983029, 262144, 0, -917493, 327680, 0, -851957, 262144, 1, -786421, 327680, 1, -720885, 327680, 0, -655349, 262144, 1, -983028, 262144, 0, -917492, 327680, 1, -851956, 327680, 0, -786420, 262144, 0, -720884, 327680, 1, -655348, 262144, 0, -983027, 262144, 0, -917491, 262144, 0, -851955, 327680, 1, -786419, 262144, 1, -720883, 327680, 0, -655347, 262144, 0, -983026, 327680, 0, -917490, 262144, 0, -851954, 262144, 0, -786418, 262144, 1, -720882, 262144, 1, -655346, 262144, 0, -524309, 262144, 1, -458773, 262144, 1, -524308, 327680, 1, -458772, 262144, 0, -524307, 327680, 0, -458771, 262144, 1, -524306, 262144, 0, -458770, 327680, 0, -524305, 327680, 1, -458769, 327680, 0, -393233, 327680, 0, -327697, 327680, 0, -262161, 262144, 0, -196625, 327680, 0, -131089, 327680, 1, -65553, 327680, 0, -17, 327680, 1, 65519, 327680, 0, 131055, 262144, 0, -524304, 327680, 0, -458768, 327680, 1, -393232, 262144, 1, -327696, 262144, 1, -262160, 262144, 0, -196624, 327680, 0, -131088, 327680, 1, -65552, 262144, 0, -16, 327680, 1, 65520, 262144, 1, 131056, 327680, 0, 196592, 327680, 0, 262128, 262144, 0, 327664, 327680, 0, 393200, 327680, 1, 458736, 327680, 0, 524272, 327680, 0, 589808, 327680, 0, -524303, 327680, 1, -458767, 262144, 1, -393231, 262144, 1, -327695, 262144, 1, -262159, 327680, 1, -196623, 327680, 0, -131087, 262144, 0, -65551, 262144, 0, -15, 327680, 0, 65521, 327680, 0, 131057, 262144, 0, 196593, 262144, 0, 262129, 327680, 1, 327665, 262144, 1, 393201, 262144, 0, 458737, 327680, 1, 524273, 327680, 1, 589809, 262144, 1, -524302, 327680, 0, -458766, 327680, 0, -393230, 327680, 1, -327694, 262144, 0, -262158, 327680, 0, -196622, 327680, 1, -131086, 262144, 0, -65550, 262144, 0, -14, 327680, 1, 65522, 262144, 0, 131058, 327680, 1, 196594, 262144, 0, 262130, 327680, 1, 327666, 262144, 0, 393202, 262144, 1, 458738, 262144, 1, 524274, 262144, 1, 589810, 327680, 1, -524301, 327680, 0, -458765, 262144, 1, -393229, 327680, 1, -327693, 262144, 0, -262157, 327680, 0, -196621, 327680, 0, -131085, 262144, 1, -65549, 262144, 1, -13, 262144, 1, 65523, 262144, 1, 131059, 327680, 1, 196595, 327680, 1, 262131, 327680, 1, 327667, 327680, 1, 393203, 327680, 0, 458739, 262144, 1, 524275, 262144, 0, 589811, 327680, 0, -524300, 327680, 0, -458764, 262144, 0, -393228, 262144, 0, -327692, 262144, 1, -262156, 327680, 1, -196620, 327680, 1, -131084, 262144, 0, -65548, 262144, 1, -12, 262144, 1, 65524, 327680, 0, 131060, 327680, 1, 196596, 327680, 0, 262132, 327680, 1, 327668, 262144, 1, 393204, 262144, 1, 458740, 262144, 0, 524276, 262144, 1, 589812, 262144, 1, -524299, 262144, 0, -458763, 327680, 1, -393227, 262144, 0, -327691, 327680, 1, -262155, 262144, 0, -196619, 327680, 0, -131083, 327680, 1, -65547, 327680, 1, -11, 262144, 0, 65525, 262144, 1, 131061, 327680, 1, 196597, 262144, 1, 262133, 262144, 1, 327669, 262144, 0, 393205, 262144, 1, 458741, 262144, 0, 524277, 327680, 0, 589813, 327680, 0, -524298, 262144, 1, -458762, 327680, 0, -393226, 262144, 1, -327690, 262144, 1, -262154, 262144, 1, -196618, 262144, 1, -131082, 262144, 1, -65546, 327680, 1, -10, 327680, 0, 65526, 327680, 0, 131062, 327680, 0, 196598, 327680, 1, 262134, 327680, 1, 327670, 327680, 0, 393206, 327680, 0, 458742, 262144, 1, 524278, 262144, 0, 589814, 262144, 0, -524297, 327680, 1, -458761, 262144, 0, -393225, 327680, 1, -327689, 262144, 1, -262153, 262144, 1, -196617, 262144, 0, -131081, 327680, 1, -65545, 327680, 1, -9, 327680, 1, 65527, 327680, 0, 131063, 262144, 1, 196599, 327680, 0, 262135, 262144, 0, 327671, 327680, 1, 393207, 262144, 0, 458743, 262144, 0, 524279, 327680, 1, 589815, 262144, 1, -524296, 327680, 0, -458760, 327680, 0, -393224, 327680, 1, -327688, 262144, 1, -262152, 262144, 0, -196616, 262144, 1, -131080, 327680, 0, -65544, 327680, 1, -8, 262144, 0, 65528, 327680, 1, 131064, 262144, 0, 196600, 327680, 0, 262136, 327680, 0, 327672, 327680, 1, 393208, 262144, 0, 458744, 327680, 1, 524280, 262144, 0, 589816, 327680, 0, -524295, 262144, 0, -458759, 327680, 0, -393223, 327680, 0, -327687, 262144, 1, -262151, 262144, 0, -196615, 262144, 1, -131079, 327680, 1, -65543, 327680, 0, -7, 262144, 0, 65529, 327680, 0, 131065, 327680, 1, 196601, 327680, 0, 262137, 262144, 1, 327673, 262144, 0, 393209, 262144, 0, 458745, 327680, 1, 524281, 327680, 0, 589817, 262144, 0, -524294, 327680, 0, -458758, 327680, 1, -393222, 327680, 0, -327686, 327680, 0, -262150, 327680, 0, -196614, 327680, 1, -131078, 327680, 1, -65542, 262144, 0, -6, 327680, 0, 65530, 327680, 1, 131066, 262144, 1, 196602, 327680, 1, 262138, 327680, 1, 327674, 327680, 0, 393210, 327680, 1, 458746, 262144, 1, 524282, 262144, 1, 589818, 327680, 0, -524293, 262144, 1, -458757, 262144, 1, -393221, 262144, 0, -327685, 262144, 0, -262149, 262144, 0, -196613, 262144, 0, -131077, 262144, 1, -65541, 262144, 1, -5, 262144, 1, 65531, 262144, 0, 131067, 327680, 1, 196603, 262144, 0, 262139, 262144, 0, 327675, 327680, 1, 393211, 262144, 0, 458747, 327680, 1, 524283, 262144, 0, 589819, 327680, 1, -524292, 327680, 0, -458756, 327680, 1, -393220, 262144, 0, -327684, 262144, 1, -262148, 262144, 1, -196612, 262144, 0, -131076, 327680, 1, -65540, 327680, 0, -4, 327680, 0, 65532, 262144, 0, 131068, 327680, 1, 196604, 262144, 0, 262140, 262144, 0, 327676, 262144, 0, 393212, 262144, 0, 458748, 327680, 1, 524284, 327680, 1, 589820, 327680, 0, -524291, 262144, 0, -458755, 262144, 1, -393219, 327680, 0, -327683, 327680, 1, -262147, 327680, 1, -196611, 262144, 1, -131075, 327680, 1, -65539, 262144, 1, -524290, 327680, 1, -458754, 327680, 1, -393218, 262144, 1, -327682, 262144, 1, -262146, 327680, 1, -196610, 262144, 1, -131074, 327680, 0, -65538, 262144, 0, -524289, 327680, 1, -458753, 327680, 1, -393217, 262144, 1, -327681, 262144, 1, -262145, 327680, 0, -196609, 327680, 1, -131073, 327680, 1, -65537, 327680, 1, -589824, 262144, 0, -524288, 327680, 0, -458752, 327680, 0, -393216, 327680, 0, -327680, 262144, 1, -262144, 327680, 0, -196608, 327680, 1, -131072, 262144, 1, -589823, 262144, 1, -524287, 262144, 1, -458751, 262144, 0, -393215, 262144, 0, -327679, 327680, 1, -262143, 327680, 1, -196607, 262144, 1, -131071, 262144, 0, -589822, 262144, 0, -524286, 327680, 0, -458750, 327680, 1, -393214, 327680, 0, -327678, 262144, 0, -262142, 327680, 1, -196606, 262144, 1, -131070, 327680, 0, -589821, 262144, 1, -524285, 327680, 0, -458749, 262144, 0, -393213, 327680, 0, -327677, 262144, 0, -262141, 327680, 0, -196605, 327680, 0, -131069, 262144, 1, -589820, 327680, 0, -524284, 327680, 1, -458748, 262144, 1, -393212, 262144, 1, -327676, 327680, 1, -262140, 262144, 0, -196604, 262144, 0, -131068, 262144, 1, -589819, 327680, 1, -524283, 262144, 0, -458747, 327680, 0, -393211, 327680, 0, -327675, 262144, 1, -262139, 262144, 0, -196603, 327680, 1, -131067, 262144, 0, -589818, 327680, 0, -524282, 327680, 1, -458746, 327680, 1, -393210, 262144, 0, -327674, 327680, 1, -262138, 262144, 1, -196602, 262144, 0, -131066, 262144, 1, -589817, 327680, 0, -524281, 262144, 1, -458745, 262144, 1, -393209, 327680, 0, -327673, 327680, 1, -262137, 262144, 1, -196601, 327680, 1, -131065, 262144, 1, -589816, 327680, 1, -524280, 327680, 1, -458744, 262144, 1, -393208, 262144, 1, -327672, 262144, 1, -262136, 262144, 1, -196600, 262144, 1, -131064, 327680, 1, -589815, 262144, 0, -524279, 262144, 0, -458743, 327680, 1, -393207, 262144, 1, -327671, 327680, 1, -262135, 262144, 0, -196599, 327680, 0, -131063, 327680, 0, -589814, 327680, 0, -524278, 327680, 1, -458742, 327680, 1, -393206, 262144, 1, -327670, 327680, 0, -262134, 327680, 0, -196598, 327680, 1, -131062, 262144, 1, -589813, 327680, 1, -524277, 327680, 1, -458741, 327680, 0, -393205, 262144, 1, -327669, 262144, 0, -262133, 262144, 1, -196597, 327680, 1, -131061, 262144, 1, -589812, 262144, 1, -524276, 262144, 0, -458740, 262144, 0, -393204, 262144, 1, -327668, 262144, 1, -262132, 262144, 1, -196596, 327680, 1, -131060, 262144, 1, -589811, 327680, 1, -524275, 262144, 0, -458739, 262144, 1, -393203, 327680, 1, -327667, 262144, 0, -262131, 327680, 1, -196595, 327680, 0, -131059, 262144, 0, -589810, 327680, 0, -524274, 327680, 0, -458738, 262144, 0, -393202, 262144, 1, -327666, 327680, 0, -262130, 327680, 0, -196594, 327680, 1, -131058, 262144, 1)
+
+[node name="Doors" type="Node2D" parent="."]
+
+[node name="back_to_hub_door" parent="Doors" instance=ExtResource("76_fvx0c")]
+position = Vector2(955, 572)
+
+[node name="Player" type="Node2D" parent="."]
+
+[node name="Player" parent="Player" instance=ExtResource("77_l0vc0")]
+position = Vector2(455, -6)

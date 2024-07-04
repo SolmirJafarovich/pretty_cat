@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://tkhwcxnpx702"
+path="res://.godot/imported/Винкс Клуб - 1 сезон - Начальная песня.mp3-9aa4b62fc90cf0e5753a5ccda7b6b034.mp3str"
+
+[deps]
+
+source_file="res://sound/Винкс Клуб - 1 сезон - Начальная песня.mp3"
+dest_files=["res://.godot/imported/Винкс Клуб - 1 сезон - Начальная песня.mp3-9aa4b62fc90cf0e5753a5ccda7b6b034.mp3str"]
+
+[params]
+
+loop=true
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4

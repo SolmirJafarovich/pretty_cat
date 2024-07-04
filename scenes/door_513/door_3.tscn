@@ -1,0 +1,32 @@
+[gd_scene load_steps=4 format=3 uid="uid://bdf7ur7hl5k6q"]
+
+[ext_resource type="Texture2D" uid="uid://b532anbt5gbnw" path="res://sprites/Door_3.png" id="1_0h7gl"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kyihh"]
+size = Vector2(88, 20)
+
+[sub_resource type="GDScript" id="GDScript_76ca8"]
+script/source = "extends Label
+
+func _process(_delta):
+	text = \"Сложный Паркур\" + \"\\n\" + \"Монет \" + str(Global.coins_in_platformer_hard) + \" / \" + str(Global.max_coins_in_platformer_hard)
+"
+
+[node name="Door_3" type="Area2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_0h7gl")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+scale = Vector2(1, 8.16)
+shape = SubResource("RectangleShape2D_kyihh")
+
+[node name="Label" type="Label" parent="."]
+offset_left = -113.0
+offset_top = -204.0
+offset_right = -73.0
+offset_bottom = -155.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 35
+script = SubResource("GDScript_76ca8")

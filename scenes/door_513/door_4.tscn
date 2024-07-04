@@ -1,0 +1,29 @@
+[gd_scene load_steps=4 format=3 uid="uid://dwjlfskiof2g3"]
+
+[ext_resource type="Texture2D" uid="uid://dyn6voj8qxs02" path="res://sprites/Door_4.png" id="1_sxpub"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qt3mf"]
+size = Vector2(88, 162)
+
+[sub_resource type="GDScript" id="GDScript_ulipo"]
+script/source = "extends Label
+
+func _process(_delta):
+	text = \"Лабиринт\" + \"\\n\" + \"Огромный\" + \"\\n\" + \"Монет \" + str(Global.now) + \" / \" + str(Global.max)
+"
+
+[node name="Door_4" type="Area2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_sxpub")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_qt3mf")
+
+[node name="Label" type="Label" parent="."]
+offset_left = -92.0
+offset_top = -265.0
+offset_right = -52.0
+offset_bottom = -216.0
+theme_override_font_sizes/font_size = 35
+script = SubResource("GDScript_ulipo")

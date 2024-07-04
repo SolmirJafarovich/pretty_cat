@@ -1,0 +1,131 @@
+[gd_scene load_steps=7 format=3 uid="uid://dn0ec16ayti1r"]
+
+[ext_resource type="Script" path="res://scenes/UI/main_menu.gd" id="1_uv51y"]
+[ext_resource type="Script" path="res://scenes/UI/ParallaxBackgroundMenu.gd" id="1_y7k6l"]
+[ext_resource type="AudioStream" uid="uid://c7rp5s8ukhgqc" path="res://sound/Elsever Qemli - У моей девушки день рождения.mp3" id="2_cqkn1"]
+[ext_resource type="Texture2D" uid="uid://bldihxu4qm2q0" path="res://sprites/Long_clouds.png" id="2_s4bwy"]
+[ext_resource type="Texture2D" uid="uid://blmx135cu7j21" path="res://sprites/Long_mountains.png" id="3_joogv"]
+[ext_resource type="Texture2D" uid="uid://b6v1dsj3i57t1" path="res://sprites/Long_trees.png" id="4_rmkgw"]
+
+[node name="Main_menu" type="Node2D"]
+process_mode = 3
+script = ExtResource("1_uv51y")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_cqkn1")
+volume_db = -25.0
+autoplay = true
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+offset = Vector2(0, 400)
+scale = Vector2(0.305, 0.248)
+transform = Transform2D(0.305, 0, 0, 0.248, 0, 400)
+script = ExtResource("1_y7k6l")
+
+[node name="ParallaxLayer4" type="ParallaxLayer" parent="ParallaxBackground"]
+texture_repeat = 2
+position = Vector2(1452.46, 1161.29)
+scale = Vector2(1.5, 1.5)
+motion_scale = Vector2(0.1, 0)
+motion_mirroring = Vector2(4418, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer4"]
+position = Vector2(1234.97, -728.494)
+scale = Vector2(13.834, 11.834)
+texture = ExtResource("2_s4bwy")
+
+[node name="ParallaxLayer2" type="ParallaxLayer" parent="ParallaxBackground"]
+position = Vector2(13.1148, -145.161)
+motion_scale = Vector2(0.4, 0.4)
+motion_mirroring = Vector2(6657, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer2"]
+position = Vector2(3301.64, 314.516)
+scale = Vector2(13.961, 15.726)
+texture = ExtResource("3_joogv")
+
+[node name="ParallaxLayer3" type="ParallaxLayer" parent="ParallaxBackground"]
+position = Vector2(13.1148, 1532.26)
+motion_mirroring = Vector2(6586, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer3"]
+position = Vector2(3236.07, -604.841)
+scale = Vector2(13.803, 15.803)
+texture = ExtResource("4_rmkgw")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Menu" type="Control" parent="CanvasLayer"]
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -20.0
+offset_right = 20.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Panel" type="Panel" parent="CanvasLayer/Menu"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -298.0
+offset_top = -116.0
+offset_right = -258.0
+offset_bottom = -76.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(15.3939, 9.40567)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer/Menu/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -17.2444
+offset_top = -11.6091
+offset_right = 352.756
+offset_bottom = 325.391
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.0958416, 0.251489)
+
+[node name="Resume" type="Button" parent="CanvasLayer/Menu/Panel/VBoxContainer"]
+layout_mode = 2
+text = "Продолжить"
+
+[node name="New game" type="Button" parent="CanvasLayer/Menu/Panel/VBoxContainer"]
+layout_mode = 2
+text = "Новая игра
+"
+
+[node name="Quit" type="Button" parent="CanvasLayer/Menu/Panel/VBoxContainer"]
+layout_mode = 2
+text = "Выйти"
+
+[node name="Label" type="Label" parent="CanvasLayer"]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -484.0
+offset_top = 26.0
+offset_right = -214.0
+offset_bottom = 54.0
+grow_horizontal = 2
+scale = Vector2(3.60911, 5.02833)
+theme_override_font_sizes/font_size = 20
+text = "С Днём Рождения, Мария!!!
+"
+
+[connection signal="pressed" from="CanvasLayer/Menu/Panel/VBoxContainer/Resume" to="." method="_on_resume_pressed"]
+[connection signal="pressed" from="CanvasLayer/Menu/Panel/VBoxContainer/New game" to="." method="_on_new_game_pressed"]
+[connection signal="pressed" from="CanvasLayer/Menu/Panel/VBoxContainer/Quit" to="." method="_on_quit_pressed"]

@@ -1,0 +1,36 @@
+[gd_scene load_steps=5 format=3 uid="uid://doy0a0ydxkx6w"]
+
+[ext_resource type="Script" path="res://scenes/door_513/door_513.gd" id="1_35gvc"]
+[ext_resource type="Texture2D" uid="uid://cfmse6li5d753" path="res://sprites/Door_513.png" id="1_m0hwr"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_phbq1"]
+size = Vector2(91, 166)
+
+[sub_resource type="GDScript" id="GDScript_bv8tt"]
+script/source = "extends Label
+
+func _process(_delta):
+	text = \"Лабиринт\" + \"\\n\" + \"Маленький\" + \"\\n\" + \"Монет \" + str(Global.coins_in_maze) + \" / \" + str(Global.max_coins_in_maze)
+"
+
+[node name="door_513" type="Area2D"]
+collision_layer = 4
+collision_mask = 2
+script = ExtResource("1_35gvc")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_m0hwr")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+light_mask = 2
+visibility_layer = 2
+position = Vector2(-3.5, -13)
+shape = SubResource("RectangleShape2D_phbq1")
+
+[node name="Label" type="Label" parent="."]
+offset_left = -94.0
+offset_top = -223.0
+offset_right = -54.0
+offset_bottom = -174.0
+theme_override_font_sizes/font_size = 35
+script = SubResource("GDScript_bv8tt")

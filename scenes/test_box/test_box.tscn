@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=3 uid="uid://pmavpom3q8xt"]
+
+[ext_resource type="Texture2D" uid="uid://bp0pwk3osj34c" path="res://sprites/First_Doors.png" id="1_sdwvs"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_igetv"]
+size = Vector2(86.5899, 77.5)
+
+[node name="test_box" type="RigidBody2D"]
+disable_mode = 2
+collision_layer = 8
+collision_mask = 27
+mass = 0.02
+max_contacts_reported = 1
+contact_monitor = true
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(10.25, -31)
+scale = Vector2(1, 0.5)
+texture = ExtResource("1_sdwvs")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(9.70504, -30.75)
+shape = SubResource("RectangleShape2D_igetv")

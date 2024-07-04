@@ -1,0 +1,51 @@
+[gd_scene load_steps=4 format=3 uid="uid://c0dgyiprakdkm"]
+
+[ext_resource type="PackedScene" uid="uid://tyis2g6mf2w6" path="res://scenes/UI/pause_menu.tscn" id="1_bnf6e"]
+[ext_resource type="PackedScene" uid="uid://bwa503am2ha4v" path="res://scenes/UI/manager.tscn" id="1_rw337"]
+
+[sub_resource type="GDScript" id="GDScript_tjuup"]
+script/source = "extends Label
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(_delta):
+	text = \"Жизни = \" + str(Global.lives) + \"\\n\" + \"HP = \" + str(Global.HP) + \"\\n\" + \"Монетки = \" + str(Global.coins_on_level)
+"
+
+[node name="Info" type="CanvasLayer"]
+process_mode = 3
+
+[node name="Manager" parent="." instance=ExtResource("1_rw337")]
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Health" type="Label" parent="."]
+offset_left = 19.0
+offset_top = 12.0
+offset_right = 184.0
+offset_bottom = 67.0
+theme_override_font_sizes/font_size = 25
+script = SubResource("GDScript_tjuup")
+
+[node name="Pause_menu" parent="." instance=ExtResource("1_bnf6e")]
+visible = false
+
+[node name="Panel" parent="Pause_menu" index="0"]
+process_mode = 3
+
+[node name="VBoxContainer" parent="Pause_menu/Panel" index="0"]
+process_mode = 3
+
+[node name="Resume" parent="Pause_menu/Panel/VBoxContainer" index="0"]
+process_mode = 3
+
+[connection signal="pressed" from="Pause_menu/Panel/VBoxContainer/Resume" to="Manager" method="_on_resume_pressed"]
+[connection signal="pressed" from="Pause_menu/Panel/VBoxContainer/Save" to="Manager" method="_on_save_pressed"]
+[connection signal="pressed" from="Pause_menu/Panel/VBoxContainer/Load" to="Manager" method="_on_load_pressed"]
+[connection signal="pressed" from="Pause_menu/Panel/VBoxContainer/Quit" to="Manager" method="_on_quit_pressed"]
+
+[editable path="Pause_menu"]

@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=3 uid="uid://dqp1g5xy77htb"]
+
+[ext_resource type="Texture2D" uid="uid://bp0pwk3osj34c" path="res://sprites/First_Doors.png" id="1_ncg2b"]
+[ext_resource type="Script" path="res://scenes/door_513/back_to_hub_door.gd" id="1_vleqq"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_svh3o"]
+size = Vector2(88, 162)
+
+[node name="back_to_hub_door" type="Area2D"]
+collision_layer = 4
+collision_mask = 2
+script = ExtResource("1_vleqq")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_ncg2b")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_svh3o")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="body_exited" from="." to="." method="_on_body_exited"]

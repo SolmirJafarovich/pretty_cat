@@ -1,0 +1,35 @@
+[gd_scene load_steps=4 format=3 uid="uid://cj70aap7sfpk4"]
+
+[ext_resource type="Texture2D" uid="uid://bxyyyclysae0u" path="res://sprites/Door_1.png" id="1_3ceq7"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_bc850"]
+size = Vector2(92, 168)
+
+[sub_resource type="GDScript" id="GDScript_qjs1v"]
+script/source = "extends Label
+
+
+func _process(_delta):
+	text = \"Средний Паркур\" + \"\\n\" + \"Монет \" + str(Global.coins_in_platformer_normal) + \" / \" + str(Global.max_coins_in_platformer_normal)
+"
+
+[node name="Door_1" type="Area2D"]
+collision_layer = 4
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_bc850")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_3ceq7")
+
+[node name="Label" type="Label" parent="."]
+offset_left = -115.0
+offset_top = -222.0
+offset_right = -75.0
+offset_bottom = -173.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 35
+script = SubResource("GDScript_qjs1v")

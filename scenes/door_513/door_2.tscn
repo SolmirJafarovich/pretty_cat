@@ -1,0 +1,36 @@
+[gd_scene load_steps=5 format=3 uid="uid://m1kf0xgkkcre"]
+
+[ext_resource type="Texture2D" uid="uid://cakwofvbrowdb" path="res://sprites/Door_2.png" id="1_hr43r"]
+[ext_resource type="Script" path="res://scenes/door_513/door_2.gd" id="1_nahb1"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8o7jl"]
+size = Vector2(92, 164)
+
+[sub_resource type="GDScript" id="GDScript_4d71k"]
+script/source = "extends Label
+
+func _process(_delta):
+	text = \"Простой Паркур\" + \"\\n\" + \"Монет \" + str(Global.coins_in_platformer_lite) + \" / \" + str(Global.max_coins_in_platformer_lite)
+"
+
+[node name="Door_2" type="Area2D"]
+collision_layer = 4
+collision_mask = 2
+script = ExtResource("1_nahb1")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_hr43r")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_8o7jl")
+
+[node name="Label" type="Label" parent="."]
+offset_left = -104.0
+offset_top = -188.0
+offset_right = -64.0
+offset_bottom = -146.0
+theme_override_font_sizes/font_size = 30
+script = SubResource("GDScript_4d71k")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="body_exited" from="." to="." method="_on_body_exited"]

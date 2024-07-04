@@ -1,0 +1,93 @@
+[gd_scene load_steps=2 format=3 uid="uid://bwa503am2ha4v"]
+
+[sub_resource type="GDScript" id="GDScript_s7imc"]
+script/source = "extends Node
+
+@onready var pause_menu = $\"../Pause_menu\"
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta):
+	if Input.is_action_just_pressed(\"ui_cancel\"):
+		Global.game_paused = !Global.game_paused
+		
+	if Global.game_paused == true:
+		get_tree().paused = true
+		pause_menu.show()
+	
+	else:
+		get_tree().paused = false
+		pause_menu.hide()
+	
+
+		
+
+
+func _on_resume_pressed():
+	Global.game_paused = !Global.game_paused
+
+
+
+func _on_quit_pressed():
+	Global.game_paused = !Global.game_paused
+	get_tree().change_scene_to_file(\"res://scenes/UI/main_menu.tscn\")
+	
+func _on_save_pressed():
+	save_game()
+	
+
+func _on_load_pressed():
+	load_game()
+	
+	
+	
+func save_game():
+	var file = FileAccess.open(Global.save_path, FileAccess.WRITE)
+	#Состояние котёнка
+	file.store_var(Global.lives)
+	file.store_var(Global.coins)
+	# Информация о уровне
+	file.store_var(Global.coins_in_maze)
+	file.store_var(Global.coins_in_platformer_lite)
+	file.store_var(Global.coins_in_platformer_normal)
+	file.store_var(Global.coins_in_platformer_hard)
+	file.store_var(Global.now)
+	# Покупочки
+	file.store_var(Global.pomelo)
+	file.store_var(Global.chocolate)
+	# Секретики
+	file.store_var(Global.chippi_chippi)
+	file.store_var(Global.tomato)
+	file.store_var(Global.happy_cat)
+	file.store_var(Global.winx)
+	file.store_var(Global.nose_taping)
+	
+	Global.game_paused = !Global.game_paused
+	
+func load_game():
+	var file = FileAccess.open(Global.save_path, FileAccess.READ)
+	#Состояние котёнка
+	Global.lives = file.get_var(Global.lives)
+	Global.coins = file.get_var(Global.coins)
+	# Информация о уровне
+	Global.coins_in_maze = file.get_var(Global.coins_in_maze)
+	Global.coins_in_platformer_lite = file.get_var(Global.coins_in_platformer_lite)
+	Global.coins_in_platformer_normal = file.get_var(Global.coins_in_platformer_normal)
+	Global.coins_in_platformer_hard = file.get_var(Global.coins_in_platformer_hard)
+	Global.now = file.get_var(Global.now)
+	# Покупочки
+	Global.pomelo = file.get_var(Global.pomelo)
+	Global.chocolate = file.get_var(Global.chocolate)
+	# Секретики
+	Global.chippi_chippi = file.get_var(Global.chippi_chippi)
+	Global.tomato = file.get_var(Global.tomato)
+	Global.happy_cat = file.get_var(Global.happy_cat)
+	Global.winx = file.get_var(Global.winx)
+	Global.nose_taping = file.get_var(Global.nose_taping)
+	
+	Global.game_paused = !Global.game_paused
+
+"
+
+[node name="Manager" type="Node"]
+process_mode = 3
+script = SubResource("GDScript_s7imc")
