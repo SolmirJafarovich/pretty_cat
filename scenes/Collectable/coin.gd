@@ -1,5 +1,8 @@
 extends Area2D
 
+# Этот код отвечает за увеличение счётчика монет, когда игрок касается объекта,
+# а также за анимацию исчезновения этого объекта с экрана.
+
 func _on_body_entered(body):
 	if body.name == "Player":
 		Global.coins_on_level += 1
